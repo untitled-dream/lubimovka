@@ -1,13 +1,5 @@
 .footer__partners-block {
   padding-top: 9px;
-  grid-row: 1;
-  grid-column: 3 / span 6;
+  grid-column: 2 / span 3;
   display: flex;
-}
-
-@media screen and (max-width: 720px) {
-  .footer__partners-block {
-    grid-row: 9;
-    grid-column: 1 / span 2;
-  }
 }

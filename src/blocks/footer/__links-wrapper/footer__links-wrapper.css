@@ -1,0 +1,7 @@
+.footer__links-wrapper {
+    display: flex;
+    gap: 90px;
+    grid-row: 2;
+    grid-column: 3;
+    justify-self: end;
+  }

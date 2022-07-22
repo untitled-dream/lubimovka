@@ -107,7 +107,9 @@
 @import url(./blocks/footer/__address/footer__address.css);
 @import url(./blocks/footer/__address-spot/footer__address-spot.css);
 @import url(./blocks/footer/__address-text/footer__address-text.css);
+@import url(./blocks/footer/__copyright-wrapper/footer__copyright-wrapper.css);
 @import url(./blocks/footer/__copyright/footer__copyright.css);
+@import url(./blocks/footer/__credits/footer__credits.css);
 @import url(./blocks/footer/__credits-design/footer__credits-design.css);
 @import url(./blocks/footer/__credits-design-logo/footer__credits-design-logo.css);
 @import url(./blocks/footer/__credits-design-text/footer__credits-design-text.css);
@@ -117,6 +119,7 @@
 @import url(./blocks/footer/__logo/footer__logo.css);
 @import url(./blocks/footer/__partners-heading/footer__partners-heading.css);
 @import url(./blocks/footer/__partners-block/footer__partners-block.css);
+@import url(./blocks/footer/__links-wrapper/footer__links-wrapper.css);
 @import url(./blocks/footer/__links/footer__links.css);
 @import url(./blocks/footer/__links-list/footer__links-list.css);
 @import url(./blocks/footer/__partners-link/footer__partners-link.css);
