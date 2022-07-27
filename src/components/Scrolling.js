@@ -20,7 +20,8 @@ function Scrolling() {
     <button
       className={isScroll ? 'scroll-to-up scroll-to-up_active' : 'scroll-to-up'}
       style={{ "--progress": `${scrollProgress}%` }}
-      id="scroll-to-up" title="Наверх"
+      id="scroll-to-up"
+      title="Наверх"
       onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' }, { once: true })}
     />
   )
