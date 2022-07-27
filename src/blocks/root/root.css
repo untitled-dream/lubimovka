@@ -3,6 +3,7 @@
     --accent-color: #b7c09d;
     --content-color: #242424;
     --background-color: #ecebe8;
+    --progress: 0%;
     
     background-color: var(--background-color);
     box-sizing: border-box;

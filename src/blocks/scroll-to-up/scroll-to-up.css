@@ -1,4 +1,5 @@
 .scroll-to-up {
+ 
   background: conic-gradient(var(--content-color) var(--progress), rgba(255, 255, 255, 0) var(--progress));
   border: none;
   border-radius: 50%;

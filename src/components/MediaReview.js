@@ -48,7 +48,7 @@ function MediaReview() {
             >
               {
                 reviews.media.map((item, i) => (
-                  <SwiperSlide>
+                  <SwiperSlide key={i}>
                     {({ isActive }) => (
                       <div className={`slider__item ${isActive && 'slider__item_active'}`} key={i}>
                         <article className="review">
