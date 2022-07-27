@@ -27,16 +27,13 @@ function MediaReview() {
               </div>
             </div>
             <Swiper
-              className='slider__items-container' // Affects the visibility of other reviews
-
+              className='slider__items-container'
               modules={[Navigation, Pagination]}
-
               navigation={{
                 prevEl: '.slider__button-prev',
                 nextEl: '.slider__button-next',
               }
               }
-
               pagination={{
                 el: '.slider__pagination',
                 clickable: true,
@@ -55,7 +52,7 @@ function MediaReview() {
                     {({ isActive }) => (
                       <div className={`slider__item ${isActive && 'slider__item_active'}`} key={i}>
                         <article className="review">
-                          <img className="review__media-logo" src={`images/${item.logo}`} alt={item.title} />
+                          <img className="review__media-logo" src={`./images/${item.logo}`} alt={item.title} />
                           <p className="review__text">{item.text}</p>
                           <a href={item.readMoreLink} className="review__link-block link link_fill">Читать полностью</a>
                         </article>
