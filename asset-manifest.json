@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/static/css/main.e604c73c.css",
-    "main.js": "/static/js/main.831057f4.js",
-    "static/media/video-preview.png": "/static/media/video-preview.de9fb1c50f8ab295403a.png",
-    "static/media/formular-light.woff": "/static/media/formular-light.88d9ef8b8cef1afd8934.woff",
-    "static/media/formular-light.eot": "/static/media/formular-light.bebcc28f63173eef4ac3.eot",
-    "static/media/PPNeueMachina-Regular.woff": "/static/media/PPNeueMachina-Regular.bdf008866d5edfcf775e.woff",
-    "static/media/PPNeueMachina-Regular.eot": "/static/media/PPNeueMachina-Regular.9dfa755d98bd278a9344.eot",
-    "static/media/formular-light.woff2": "/static/media/formular-light.bb36dce4bf0739bcf8d0.woff2",
-    "static/media/PPNeueMachina-Regular.woff2": "/static/media/PPNeueMachina-Regular.c304b32936ac5c9266e9.woff2",
-    "static/media/logo.svg": "/static/media/logo.d6799cb956f9254e8dda4f2f1d13cebe.svg",
-    "static/media/icon-arrow-right.svg": "/static/media/icon-arrow-right.820ced3e0dc14634e7b9.svg",
-    "index.html": "/index.html",
-    "static/media/icon-arrow-45.svg": "/static/media/icon-arrow-45.f1883f4fe9dee03fc8f3.svg",
-    "static/media/icon-close.svg": "/static/media/icon-close.e9675a9581c8e397cc12.svg",
-    "static/media/icon-plus.svg": "/static/media/icon-plus.f2740792920531c819ab.svg",
-    "static/media/icon-play.svg": "/static/media/icon-play.bf13beec0fcc7ac4d931.svg",
-    "main.e604c73c.css.map": "/static/css/main.e604c73c.css.map",
-    "main.831057f4.js.map": "/static/js/main.831057f4.js.map"
+    "main.css": "/lubimovka/static/css/main.600e8326.css",
+    "main.js": "/lubimovka/static/js/main.49d2a357.js",
+    "static/media/video-preview.png": "/lubimovka/static/media/video-preview.de9fb1c50f8ab295403a.png",
+    "static/media/formular-light.woff": "/lubimovka/static/media/formular-light.88d9ef8b8cef1afd8934.woff",
+    "static/media/formular-light.eot": "/lubimovka/static/media/formular-light.bebcc28f63173eef4ac3.eot",
+    "static/media/PPNeueMachina-Regular.woff": "/lubimovka/static/media/PPNeueMachina-Regular.bdf008866d5edfcf775e.woff",
+    "static/media/PPNeueMachina-Regular.eot": "/lubimovka/static/media/PPNeueMachina-Regular.9dfa755d98bd278a9344.eot",
+    "static/media/formular-light.woff2": "/lubimovka/static/media/formular-light.bb36dce4bf0739bcf8d0.woff2",
+    "static/media/PPNeueMachina-Regular.woff2": "/lubimovka/static/media/PPNeueMachina-Regular.c304b32936ac5c9266e9.woff2",
+    "static/media/logo.svg": "/lubimovka/static/media/logo.d6799cb956f9254e8dda4f2f1d13cebe.svg",
+    "static/media/icon-arrow-right.svg": "/lubimovka/static/media/icon-arrow-right.820ced3e0dc14634e7b9.svg",
+    "index.html": "/lubimovka/index.html",
+    "static/media/icon-arrow-45.svg": "/lubimovka/static/media/icon-arrow-45.f1883f4fe9dee03fc8f3.svg",
+    "static/media/icon-close.svg": "/lubimovka/static/media/icon-close.e9675a9581c8e397cc12.svg",
+    "static/media/icon-plus.svg": "/lubimovka/static/media/icon-plus.f2740792920531c819ab.svg",
+    "static/media/icon-play.svg": "/lubimovka/static/media/icon-play.bf13beec0fcc7ac4d931.svg",
+    "main.600e8326.css.map": "/lubimovka/static/css/main.600e8326.css.map",
+    "main.49d2a357.js.map": "/lubimovka/static/js/main.49d2a357.js.map"
   },
   "entrypoints": [
-    "static/css/main.e604c73c.css",
-    "static/js/main.831057f4.js"
+    "static/css/main.600e8326.css",
+    "static/js/main.49d2a357.js"
   ]
 }
