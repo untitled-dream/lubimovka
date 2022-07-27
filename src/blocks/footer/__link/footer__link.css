@@ -3,3 +3,9 @@
   font-weight: normal;
   line-height: 17px;
 }
+
+@media (max-width: 980px) {
+  .footer__link {
+    font-size: 18px;
+  }
+}

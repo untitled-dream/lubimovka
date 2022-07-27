@@ -1,13 +1,13 @@
 .footer__copyright {
   margin: 0;
-  grid-row: 5;
-  grid-column: 3 / span 2;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
 }
 
-@media screen and (max-width: 720px) {
+@media (max-width: 980px) {
   .footer__copyright {
-    grid-row: 11;
-    grid-column: 1 / span 2;
-    max-width: 225px;
+    flex-direction: column;
+    gap: 8px;
   }
 }

@@ -2,3 +2,9 @@
   margin: 0;
   max-width: 207px;
 }
+
+@media (max-width: 980px) {
+  .footer__credits-web {
+    max-width: 255px;
+  }
+}

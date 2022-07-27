@@ -120,17 +120,12 @@
 @import url(./blocks/footer/__partners-heading/footer__partners-heading.css);
 @import url(./blocks/footer/__partners-block/footer__partners-block.css);
 @import url(./blocks/footer/__links-wrapper/footer__links-wrapper.css);
-@import url(./blocks/footer/__links/footer__links.css);
 @import url(./blocks/footer/__links-list/footer__links-list.css);
-@import url(./blocks/footer/__partners-link/footer__partners-link.css);
 @import url(./blocks/footer/__partners-list/footer__partners-list.css);
 @import url(./blocks/footer/__partners-list-item/footer__partners-list-item.css);
 @import url(./blocks/footer/__partners-logo/footer__partners-logo.css);
-
 @import url(./blocks/footer/__partners-subheading/footer__partners-subheading.css);
 @import url(./blocks/footer/__privacy-policy/footer__privacy-policy.css);
-@import url(./blocks/footer/__separator/footer__separator.css);
-
 @import url(./blocks/footer/__privacy-policy/footer__privacy-policy.css);
 
 @import url(./blocks/popup/popup.css);

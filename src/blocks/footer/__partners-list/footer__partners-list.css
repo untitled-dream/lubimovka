@@ -2,11 +2,18 @@
   display: flex;
 }
 
-@media screen and (max-width: 720px) {
+@media (max-width: 980px) {
   .footer__partners-list {
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    max-width: 55%;
+    row-gap: 62px;
+    column-gap: 25px;
+  }
+}
+
+@media (max-width: 450px) {
+  .footer__partners-list {
+    column-gap: 0;
   }
 }

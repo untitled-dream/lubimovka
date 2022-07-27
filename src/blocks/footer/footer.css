@@ -11,3 +11,18 @@
   grid-template-columns: 6fr 6fr 32fr;
   grid-template-rows: 104px 259px 100px;
 }
+
+@media (max-width: 1080px) {
+  .footer {
+    padding-right: 32px;
+  }
+}
+
+@media (max-width: 980px) {
+  .footer {
+    padding-left: 59px;
+    padding-right: 55px;
+    display: flex;
+    flex-direction: column;
+  }
+}

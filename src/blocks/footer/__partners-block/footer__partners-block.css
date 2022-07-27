@@ -3,3 +3,17 @@
   grid-column: 2 / span 3;
   display: flex;
 }
+
+@media (max-width: 980px) {
+  .footer__partners-block {
+    margin-top: 89px;
+    margin-left: -12px;
+    padding: 0;
+  }
+}
+
+@media (max-width: 720px) {
+  .footer__partners-block {
+    max-width: 334px;
+  }
+}

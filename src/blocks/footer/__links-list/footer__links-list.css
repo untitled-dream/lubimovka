@@ -3,3 +3,9 @@
   flex-direction: column;
   gap: 15px;
 }
+
+@media (max-width: 980px) {
+  .footer__links-list {
+    gap: 17px;
+  }
+}
