@@ -2,14 +2,14 @@ import React, { useState } from 'react'
 
 function Scrolling() {
 
-  const [isScroll, setScrollButton] = useState('');
+  const [isScroll, setScrollButton] = useState(false);
   const [scrollProgress, setScrollProgress] = useState(0);
 
   function scrollToTop() {
     if (document.body.scrollTop > 1000 || document.documentElement.scrollTop > 1000) {
       setScrollButton(true);
     } else {
-      setScrollButton('');
+      setScrollButton(false);
     }
     setScrollProgress(((document.body.scrollTop || document.documentElement.scrollTop) / (document.documentElement.offsetHeight - window.innerHeight)) * 100)
   }
