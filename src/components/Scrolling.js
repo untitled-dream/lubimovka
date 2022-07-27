@@ -2,16 +2,14 @@ import React, { useState } from 'react'
 
 function Scrolling() {
 
-
-  const [isScroll, setScrollButton] = useState(false);
-
-  const [scrollProgress, setScrollProgress] = useState();
+  const [isScroll, setScrollButton] = useState('');
+  const [scrollProgress, setScrollProgress] = useState(0);
 
   function scrollToTop() {
     if (document.body.scrollTop > 1000 || document.documentElement.scrollTop > 1000) {
       setScrollButton(true);
     } else {
-      setScrollButton(false);
+      setScrollButton('');
     }
     setScrollProgress(((document.body.scrollTop || document.documentElement.scrollTop) / (document.documentElement.offsetHeight - window.innerHeight)) * 100)
   }
@@ -19,7 +17,12 @@ function Scrolling() {
   window.onscroll = () => scrollToTop();
 
   return (
-    <button className={`scroll-to-up ${isScroll && `scroll-to-up_active`}`} style={{ "--progress": `${scrollProgress}%` }}  id="scroll-to-up" title="Наверх" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' }, { once: true })} />
+    <button
+      className={isScroll ? 'scroll-to-up scroll-to-up_active' : 'scroll-to-up'}
+      style={{ "--progress": `${scrollProgress}%` }}
+      id="scroll-to-up" title="Наверх"
+      onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' }, { once: true })}
+    />
   )
 }
 
