@@ -1,0 +1,10 @@
+.footer__partners-logo {
+  max-height: 37px;
+  mix-blend-mode: multiply;
+}
+
+@media screen and (max-width: 720px) {
+  .footer__partners-logo {
+    width: 140px;
+  }
+}

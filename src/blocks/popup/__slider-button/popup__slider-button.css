@@ -1,0 +1,19 @@
+.popup__slider-button {
+  background: var(--background-color) url(../../../images/icon-arrow-right.svg) no-repeat center;
+  background-size: 30px;
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  padding: 8px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.popup__slider-button:not(:last-child) {
+  left: 30px;
+  transform: translateY(-50%) scale(-1);
+}
+
+.popup__slider-button:last-child {
+  right: 30px;
+}

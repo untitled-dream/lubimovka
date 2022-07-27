@@ -1,0 +1,35 @@
+.footer__partners-list-item {
+  margin-right: 32px;
+}
+
+.footer__partners-list-item:nth-child(3) {
+  margin-right: 26px;
+}
+
+.footer__partners-list-item:last-child {
+  margin-right: 0;
+}
+
+@media screen and (max-width: 720px) {
+  .footer__partners-list-item {
+    margin: 0;
+  }
+  .footer__partners-list-item:first-child {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 18px;
+    margin-left: 10px;
+    margin-bottom: 40px;
+  }
+  .footer__partners-list-item:nth-child(2) {
+    margin-bottom: 40px;
+  }
+  .footer__partners-list-item:nth-child(3) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 14px;
+    margin-left: 10px;
+  }
+}

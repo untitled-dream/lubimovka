@@ -1,0 +1,10 @@
+.footer__partners-subheading {
+  display: none;
+}
+
+@media screen and (max-width: 720px) {
+  .footer__partners-subheading {
+    display: block;
+    margin: 0;
+  }
+}

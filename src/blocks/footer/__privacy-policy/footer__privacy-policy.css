@@ -1,0 +1,11 @@
+.footer__privacy-policy {
+  margin-left: 25px;
+}
+
+@media screen and (max-width: 720px) {
+  .footer__privacy-policy {
+    margin: 0;
+    display: block;
+    margin-top: 10px;
+  }
+}

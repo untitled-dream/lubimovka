@@ -1,0 +1,16 @@
+.link_fill {
+    background: linear-gradient(var(--content-color), var(--content-color)) no-repeat;
+    background-size: 0% 100%;
+    transition: background-size .25s;
+}
+
+.link_fill:hover {
+    background-size: 100% 100%;
+    border-color: var(--content-color);
+    color: white;
+}
+
+.link_fill:hover::before,
+.link_fill:hover::after {
+    filter: brightness(0) invert();
+}

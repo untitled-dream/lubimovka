@@ -1,0 +1,4 @@
+.header__menu-list {
+    display: flex;
+    justify-content: space-between;
+}

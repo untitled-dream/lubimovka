@@ -1,0 +1,10 @@
+.tickets {
+  margin-top: 211px;
+}
+
+@media (max-width: 860px) {
+  .tickets {
+    margin-top: 30px;
+    margin-left: 60px;
+  }
+}

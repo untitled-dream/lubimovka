@@ -1,0 +1,21 @@
+.footer {
+  position: relative;
+  box-sizing: border-box;
+  padding: 42px 92px 54px 32px;
+  font-family: Formular, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.2;
+  color: var(--content-color);
+  display: grid;
+  grid-template-rows: auto 21px auto 49px auto;
+  grid-template-columns: 93px 82px 230px 340px 81px 100px 98px 77px 189px;
+}
+
+@media screen and (max-width: 720px) {
+  .footer {
+    padding: 56px 81px 74px 28px;
+    grid-template-rows: auto 30px auto 56px auto 51px auto 83px auto 125px auto 59px auto 16px auto;
+    grid-template-columns: minmax(min-content, 1fr) minmax(max-content, 1fr);
+    column-gap: 48px;
+  } 
+}

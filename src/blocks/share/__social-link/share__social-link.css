@@ -1,0 +1,25 @@
+.share__social-link {
+    align-items: center;
+    border-color: var(--content-color);
+    border-bottom: 1px solid;
+    border-left: 1px solid;
+    box-sizing: border-box;
+    font-size: 16px;
+    line-height: 14px;
+    min-width: 53px;
+    max-width: 62px;
+    padding: 4px 8px 7px 24px;
+    position: relative;
+}
+
+.share__social-link::before {
+    content: '';
+    background: transparent url(../../../images/icon-arrow-right.svg) no-repeat center;
+    background-size: 20px;
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: -1px;
+}

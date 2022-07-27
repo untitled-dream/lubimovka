@@ -1,0 +1,11 @@
+.project-heading {
+	padding-top: 62px;
+  display: flex;
+  flex-direction: column;
+}
+
+@media (max-width: 860px) {
+  .project-heading {
+    padding: 0 24px 38px;
+  }
+}

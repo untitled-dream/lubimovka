@@ -1,0 +1,10 @@
+.footer__credits-design-logo {
+  width: 27px;
+  transform: translateY(-7px);
+}
+
+@media screen and (max-width: 720px) {
+  .footer__credits-design-logo {
+    transform: translateY(0);
+  }
+}

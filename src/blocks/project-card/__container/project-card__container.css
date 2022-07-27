@@ -1,0 +1,9 @@
+.project-card__container {
+    color: var(--content-color);
+    font-weight: 300;
+    font-style: normal;
+    font-size: 16px;
+    font-family: 'Formular', 'Arial', sans-serif;
+    line-height: 22px;
+    text-transform: uppercase;
+}

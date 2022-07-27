@@ -1,0 +1,9 @@
+.project-card {
+  margin: 31px 0 0;
+}
+
+@media (min-width: 768px) {
+  .project-card {
+    margin: 80px 0 0;
+  }
+}

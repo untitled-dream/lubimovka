@@ -1,0 +1,25 @@
+.review__link-block {
+    align-items: center;
+    box-sizing: border-box;
+    border-color: var(--content-color);
+    border-left: 1px solid;
+    border-bottom: 1px solid;
+    display: flex;
+    
+    max-width: 210px;
+    min-height: 32px;
+    margin-top: 29px;
+    padding: 3px 7px 4px 0;
+    font-size: 16px;
+    line-height: .875;
+    text-transform: uppercase;
+}
+
+.review__link-block::before {
+    content: "";
+    background-image: url(../../../images/icon-arrow-right.svg);
+    background-size: 25px 25px;
+    height: 25px;
+    transform: rotate(-45deg);
+    width: 25px;
+}

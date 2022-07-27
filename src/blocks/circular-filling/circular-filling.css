@@ -1,0 +1,25 @@
+@keyframes circular-filling-forward {
+  from {
+    --angle: 50%;
+  }
+
+  to {
+    --angle: 100%;
+  }
+}
+
+@keyframes circular-filling-backword {
+  from {
+    --angle: 100%;
+  }
+
+  to {
+    --angle: 50%;
+  }
+}
+
+@property --angle {
+  syntax: '<percentage>';
+  initial-value: 50%;
+  inherits: false;
+}

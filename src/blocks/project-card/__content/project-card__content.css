@@ -1,0 +1,8 @@
+.project-card__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 240px;
+  height: 300px;
+  background-color: #B7C09D;
+}

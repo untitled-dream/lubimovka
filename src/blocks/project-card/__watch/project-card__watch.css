@@ -1,0 +1,23 @@
+.project-card__watch {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 16px 16px 18px 16px;
+  border: none;
+  border-top: 1px solid var(--content-color);
+  background-color: transparent;
+  position: relative;
+}
+
+.project-card__watch::before {
+  content: "";
+  background-image: url(../../../images/icon-arrow-right.svg);
+  background-size: 25px 25px;
+  height: 25px;
+  position: absolute;
+  right: 16px;
+  transform: translateY(-50%) rotate(-45deg);
+  top: 50%;
+  width: 25px;
+}

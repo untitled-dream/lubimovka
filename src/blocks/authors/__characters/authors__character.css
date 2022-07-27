@@ -1,0 +1,9 @@
+.authors__character {
+  list-style: none;
+  margin-top: 23px;
+  padding: 0;
+}
+
+.authors__character:first-of-type {
+  margin-top: 0;
+}

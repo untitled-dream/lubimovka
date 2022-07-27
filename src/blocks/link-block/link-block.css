@@ -1,0 +1,24 @@
+.link-block {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: Formular, Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  color: var(--content-color);
+  border: 1px solid #000;
+  line-height: 22px;
+
+  background: linear-gradient(var(--content-color), var(--content-color)) no-repeat;
+  background-size: 0% 100%;
+  transition: background-size .2s;
+}
+
+.link-block:hover {
+  color: white;
+  border-color: var(--content-color);
+  background-size: 100% 100%;
+}
+
+.link-block:hover .link-block__arrow {
+  filter: brightness(0) invert();
+}

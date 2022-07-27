@@ -1,0 +1,4 @@
+.slider__item_active {
+  opacity: 1;
+  pointer-events: all;
+}

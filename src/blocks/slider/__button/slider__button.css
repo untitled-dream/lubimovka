@@ -1,0 +1,50 @@
+.slider__button {
+  background: conic-gradient(var(--content-color) var(--angle), rgba(255, 255, 255, 0) var(--angle));
+  display: flex;
+  justify-content: center;
+  height: 50px;
+  width: 50px;
+  position: relative;
+  animation: .35s circular-filling-backword cubic-bezier(0.25, 1, 0.5, 1) backwards;
+  transition: background-color .35s;
+}
+
+.slider__button:nth-child(1) {
+  transform: scale(-1);
+}
+
+.slider__button::before,
+.slider__button::after {
+  content: "";
+  border-radius: 50%;
+  height: calc(100% - 2px);
+  width: calc(100% - 2px);
+  position: absolute;
+}
+
+.slider__button:hover {
+  animation: .35s circular-filling-forward cubic-bezier(0.25, 1, 0.5, 1) forwards;
+}
+
+.slider__button::before {
+  background-color: var(--background-color);
+}
+
+.slider__button::after {  
+  background: transparent url(../../../images/icon-arrow-45.svg) no-repeat center;
+  background-size: 25px;
+  border-radius: 50%;
+
+  transform: translateZ(0) rotate(45deg);
+}
+
+.slider__button:hover::before {
+  background-color: var(--content-color);
+  transition: background-color .2s;
+  transition-delay: .35s;
+}
+
+.slider__button:hover::after {
+  filter: brightness(0) invert();
+  transition-delay: .35s;
+}

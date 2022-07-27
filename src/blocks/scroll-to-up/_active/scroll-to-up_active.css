@@ -1,0 +1,4 @@
+.scroll-to-up_active {
+    opacity: 1;
+    transition: opacity .5s;
+}

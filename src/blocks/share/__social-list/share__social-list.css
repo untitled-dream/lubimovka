@@ -1,0 +1,10 @@
+.share__social-list {
+    display: flex;
+    font-family: 'Formular', Arial, sans-serif;
+    justify-content: space-between;
+    gap: 8px;
+    bottom: 72px;
+    left: 221px;
+    position: absolute;
+    
+}

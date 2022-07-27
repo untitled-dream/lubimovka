@@ -1,0 +1,35 @@
+.header__link {
+    align-items: center;
+    display: flex;
+    line-height: 1.4;
+}
+
+.header__link:before {
+    border: 1px solid;
+    border-bottom-left-radius: 200% 100%;
+    border-top-left-radius: 200% 100%;
+    border-right: 0;
+    box-sizing: border-box;
+    content: "";
+    display: block;
+    height: 24px;
+    visibility: hidden;
+    width: 10px;
+}
+
+.header__link:after {
+    border: 1px solid;
+    border-bottom-right-radius: 200% 100%;
+    border-top-right-radius: 200% 100%;
+    border-left: 0;
+    box-sizing: border-box;
+    content: "";
+    display: block;
+    height: 24px;
+    visibility: hidden;
+    width: 10px;
+}
+
+.header__link:hover::before, .header__link:hover::after {
+    visibility: visible;
+}

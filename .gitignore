@@ -1,0 +1,7 @@
+.vscode
+.idea
+.ds_store
+.editorconfig
+images/original
+node_modules
+dist

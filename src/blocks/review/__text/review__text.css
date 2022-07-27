@@ -1,0 +1,13 @@
+.review__text {
+    margin: 47px 0 0;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 1.4;
+    letter-spacing: -0.01em;
+}
+
+@media (max-width: 735px) {
+    .review__text {
+        margin-top: 35px;
+    }
+}

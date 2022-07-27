@@ -1,0 +1,12 @@
+.footer__partners-list {
+  display: flex;
+}
+
+@media screen and (max-width: 720px) {
+  .footer__partners-list {
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 55%;
+  }
+}
