@@ -1,5 +1,4 @@
 .slider__item {
-    opacity: .4;
-
-    pointer-events: none;
+  opacity: .4;
+  pointer-events: none;
 }

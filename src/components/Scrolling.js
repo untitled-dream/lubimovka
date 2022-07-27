@@ -22,7 +22,7 @@ function Scrolling() {
   window.onscroll = () => scrollToTop();
 
   return (
-    <button className={`scroll-to-up && ${isScroll && `scroll-to-up_active`}`} id="scroll-to-up" title="Наверх" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' }, { once: true })}/>
+    <button className={`scroll-to-up ${isScroll && `scroll-to-up_active`}`} id="scroll-to-up" title="Наверх" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' }, { once: true })}/>
   )
 }
 

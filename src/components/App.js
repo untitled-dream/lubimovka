@@ -4,6 +4,7 @@ import { PlayContext, playInfo } from "../context/PlayContext";
 import Header from "./Header";
 import Main from "./Main";
 import PhotoGallery from "./PhotoGallery";
+import MediaReview from "./MediaReview";
 import Review from "./Review";
 import SocialShare from "./SocialShare";
 import Footer from "./Footer";
@@ -14,11 +15,11 @@ function App() {
   return (
     <>
       <Header />
-      <Scrolling/>
+      <Scrolling />
       <main className="content">
         <PlayContext.Provider value={playInfo['s-uchilisha']} >
           <Project />
-          <section className="gallery">
+          {/*<section className="gallery">
             <h2 className="gallery__title">Заголовок&nbsp;блока с&nbsp;фотографиями</h2>
             <ul className="gallery__grid list">
               <li className="gallery__item"><img className="gallery__image" src="<%=require('./images/show-photo-1.jpg')%>" alt="Сцена из спектакля" /></li>
@@ -30,82 +31,11 @@ function App() {
               <li className="gallery__item"><img className="gallery__image" src="<%=require('./images/show-photo-7.jpg')%>" alt="Артисты читают пьесу" /></li>
               <li className="gallery__item"><img className="gallery__image" src="<%=require('./images/show-photo-8.jpg')%>" alt="Актриса на репетиции" /></li>
             </ul>
-          </section>
-          <section className="reviews">
-            <h2 className="reviews__title">Рецензии</h2>
-            <div className="slider">
-              <div className="slider__control">
-                <ul className="slider__pagination" />
-                <div className="slider__button-container">
-                  <button className="slider__button slider__button-prev button" />
-                  <button className="slider__button slider__button-next button" />
-                </div>
-              </div>
-              <ul className="slider__items-container">
-                <li className="slider__item">
-                  <article className="review">
-                    <img src="<%=require('./images/the-new-york-times-logo.svg')%>" alt="Логотип The New York Times" className="review__media-logo" />
-                    <p className="review__text">Действие пьесы «Длань Господня» разворачивается в&nbsp;подвале
-                      провинциальной церкви в&nbsp;Техасе, где мать главного героя с&nbsp;группой добровольцев готовит
-                      кукольное представление. Ей&nbsp;отчаянно нужна эта работа, её&nbsp;муж недавно умер, оставив
-                      её&nbsp;с&nbsp;сыном-подростком в&nbsp;эмоциональной и&nbsp;финансовой яме. И&nbsp;вот жуткая тварь
-                      захватывает контроль над левой рукой её&nbsp;беспокойного Джейсона и&nbsp;принимается терроризировать
-                      его и&nbsp;всех вокруг. По&nbsp;мере накала страстей окружающие начинают подозревать, что рука одержима
-                      самим дьяволом, и&nbsp;пастор Грег предлагает прибегнуть к&nbsp;экзорцизму. Однако «Длань
-                      Господня»&nbsp;— это не&nbsp;ужастик, по&nbsp;крайней мере, природа зла тут вовсе
-                      не&nbsp;сверхъестественная. Чёрная комедия Аскинса о&nbsp;разделённой надвое душе человека ненавязчиво
-                      обнажает глубинные импульсы&nbsp;— сексуальные, саморазрушительные, агрессивные&nbsp;—
-                      которые притаились в&nbsp;каждом из&nbsp;нас".</p>
-                    <a href="#" className="review__link-block link link_fill">Читать полностью</a>
-                  </article>
-                </li>
-                <li className="slider__item">
-                  <article className="review">
-                    <img src="<%=require('./images/spb-sobaka-logo.png')%>" alt="Логотип Собака" className="review__media-logo" />
-                    <p className="review__text">«Действие пьесы «Длань Господня» разворачивается в&nbsp;подвале
-                      провинциальной церкви в&nbsp;Техасе, где мать главного героя с&nbsp;группой добровольцев готовит
-                      кукольное представление. Ей&nbsp;отчаянно нужна эта работа, её&nbsp;муж недавно умер, оставив
-                      её&nbsp;с&nbsp;сыном-подростком в&nbsp;эмоциональной и&nbsp;финансовой яме. И&nbsp;вот жуткая тварь
-                      захватывает контроль над левой рукой её&nbsp;беспокойного Джейсона и&nbsp;принимается терроризировать
-                      его и&nbsp;всех вокруг.</p>
-                    <a href="#" className="review__link-block link link_fill">Читать полностью</a>
-                  </article>
-                </li>
-                <li className="slider__item">
-                  <article className="review">
-                    <img src="<%=require('./images/the-new-york-times-logo.svg')%>" alt="Логотип The New York Times" className="review__media-logo" />
-                    <p className="review__text">«Действие пьесы „Длань Господня“ разворачивается в&nbsp;подвале
-                      провинциальной церкви в&nbsp;Техасе, где мать главного героя с&nbsp;группой добровольцев готовит
-                      кукольное представление. Ей&nbsp;отчаянно нужна эта работа, её&nbsp;муж недавно умер, оставив
-                      её&nbsp;с&nbsp;сыном-подростком в&nbsp;эмоциональной и&nbsp;финансовой яме. И&nbsp;вот жуткая тварь
-                      захватывает контроль над левой рукой её&nbsp;беспокойного Джейсона и&nbsp;принимается терроризировать
-                      его и&nbsp;всех вокруг. По&nbsp;мере накала страстей окружающие начинают подозревать, что рука одержима
-                      самим дьяволом, и&nbsp;пастор Грег предлагает прибегнуть к&nbsp;экзорцизму. Однако „Длань
-                      Господня“&nbsp;— это не&nbsp;ужастик, по&nbsp;крайней мере, природа зла тут вовсе
-                      не&nbsp;сверхъестественная. Чёрная комедия Аскинса о&nbsp;разделённой надвое душе человека ненавязчиво
-                      обнажает глубинные импульсы&nbsp;— сексуальные, саморазрушительные, агрессивные&nbsp;—
-                      которые притаились в&nbsp;каждом из&nbsp;нас».</p>
-                    <a href="#" className="review__link-block link link_fill">Читать полностью</a>
-                  </article>
-                </li>
-                <li className="slider__item">
-                  <article className="review">
-                    <img src="<%=require('./images/spb-sobaka-logo.png')%>" alt="Логотип Собака" className="review__media-logo" />
-                    <p className="review__text">«Действие пьесы «Длань Господня» разворачивается в&nbsp;подвале
-                      провинциальной церкви в&nbsp;Техасе, где мать главного героя с&nbsp;группой добровольцев готовит
-                      кукольное представление. Ей&nbsp;отчаянно нужна эта работа, её&nbsp;муж недавно умер, оставив
-                      её&nbsp;с&nbsp;сыном-подростком в&nbsp;эмоциональной и&nbsp;финансовой яме. И&nbsp;вот жуткая тварь
-                      захватывает контроль над левой рукой её&nbsp;беспокойного Джейсона и&nbsp;принимается терроризировать
-                      его и&nbsp;всех вокруг.</p>
-                    <a href="#" className="review__link-block link link_fill">Читать полностью</a>
-                  </article>
-                </li>
-              </ul>
-            </div>
-          </section>
-          <SocialShare/>
+          </section>*/}
+          <MediaReview />
+          <SocialShare />
         </PlayContext.Provider>
-        
+
       </main>
       <footer className="footer" id="contacts">
         <a className="footer__logo-link" href="#" target="_blank"><img className="footer__logo" src="<%=require('./images/logo-text.svg')%>" alt="Логотип фестиваля Любимовка" /></a>
