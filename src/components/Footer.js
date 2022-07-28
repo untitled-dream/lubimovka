@@ -1,9 +1,16 @@
 import React from 'react'
+import logo from '../images/logo-text.svg';
+import prokhorovLogo from "../images/partner-prokhorov.svg" 
+import mosbrewLogo from "../images/partner-mosbrew.svg" 
+import sbtgLogo from "../images/partner-sbtg.svg" 
+import apogovoritLogo from "../images/partner-a-pogovorit.svg"
+import developerStudioLogo from "../images/icon-developer-studio-logo.svg"
+
 
 function Footer() {
   return (
       <footer className="footer" id="contacts">
-        <a className="footer__logo-link" href="#" target="_blank"><img className="footer__logo" src="images/logo-text.svg" alt="Логотип фестиваля Любимовка" /></a>
+        <a className="footer__logo-link" href="#" target="_blank"><img className="footer__logo" src={logo} alt="Логотип фестиваля Любимовка" /></a>
           <address className="footer__address">
             <p className="footer__address-spot">Площадка «8/3»</p>
             <p className="footer__address-text">Москва, ул.&nbsp;Казакова,&nbsp;8, стр.&nbsp;3 Метро&nbsp;«Курская»</p>
@@ -44,24 +51,24 @@ function Footer() {
             <ul className="footer__partners-list list">
               <li className="footer__partners-list-item">
                 <a href="https://www.prokhorovfund.ru" target="_blank" rel="noopener noreferrer">
-                  <img className="footer__partners-logo" src="images/partner-prokhorov.svg" alt="Логотип Фонда Михаила Прохорова" />
+                  <img className="footer__partners-logo" src={prokhorovLogo} alt="Логотип Фонда Михаила Прохорова" />
                 </a>
                 <p className="footer__partners-subheading">Генеральный партнёр</p>
               </li>
               <li className="footer__partners-list-item">
                 <a href="https://mosbrew.ru" target="_blank" rel="noopener noreferrer">
-                  <img className="footer__partners-logo" src="images/partner-mosbrew.svg" alt="Логотип Московской пивоваренной компании" />
+                  <img className="footer__partners-logo" src={mosbrewLogo} alt="Логотип Московской пивоваренной компании" />
                 </a>
               </li>
               <li className="footer__partners-list-item">
                 <a href="https://sbtg.ru" target="_blank" rel="noopener noreferrer">
-                  <img className="footer__partners-logo" src="images/partner-sbtg.svg" alt="Логотип видеокомпании SBTG" />
+                  <img className="footer__partners-logo" src={sbtgLogo} alt="Логотип видеокомпании SBTG" />
                 </a>
                 <p className="footer__partners-subheading">Онлайн-трансляции</p>
               </li>
               <li className="footer__partners-list-item">
                 <a href="https://vk.com/public211134323" target="_blank" rel="noopener noreferrer">
-                  <img className="footer__partners-logo" src="images/partner-a-pogovorit.svg" alt="Логотип подкаста А поговорить" />
+                  <img className="footer__partners-logo" src={apogovoritLogo} alt="Логотип подкаста А поговорить" />
                 </a>
               </li>
             </ul>
@@ -70,7 +77,7 @@ function Footer() {
             <p className="footer__copyright">©&nbsp;Любимовка,&nbsp;2021 <a href="#" className="footer__link link link_underline footer__privacy-policy" target="_blank">Политика&nbsp;конфиденциальности</a></p>
             <div className='footer__credits'>
               <div className="footer__credits-design">
-                <img className="footer__credits-design-logo" src="images/icon-developer-studio-logo.svg" alt="Логотип дизайн-студии" />
+                <img className="footer__credits-design-logo" src={developerStudioLogo} alt="Логотип дизайн-студии" />
                 <p className="footer__credits-design-text">дизайн сайта — <a className="footer__link link link_underline" href="https://ru.shishki.co" target="_blank" rel="noopener noreferrer">shishki.collective</a></p>
               </div>
               <p className="footer__credits-web">вёрстка и разработка — студенты <a className="footer__link link link_underline" href="https://practicum.yandex.ru" target="_blank" rel="noopener noreferrer">Яндекс.Практикума</a></p>
