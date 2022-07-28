@@ -1,0 +1,5 @@
+.slider__container {
+  width: 1320px;
+  position: relative;
+  left: calc(-660px + 50%);
+}

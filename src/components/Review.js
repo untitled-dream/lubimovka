@@ -1,8 +1,26 @@
 import React from 'react'
 
+import MediaReview from './MediaReview';
+import ViewerReview from './ViewerReview';
+
+import { PlayContext } from '../context/PlayContext';
+
 function Review() {
+
+  const { reviews } = React.useContext(PlayContext);
+
   return (
-    <div>Review</div>
+    <>
+      {
+        reviews.media.length &&
+        <MediaReview reviews={reviews.media}/>
+      }
+
+      {
+        reviews.people.length &&
+        <ViewerReview reviews={reviews.people}/>
+      }
+    </>
   )
 }
 

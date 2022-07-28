@@ -1,9 +1,9 @@
 .review__text {
-    margin: 47px 0 0;
     font-weight: 300;
     font-size: 20px;
     line-height: 1.4;
     letter-spacing: -0.01em;
+    margin: 0;
 }
 
 @media (max-width: 735px) {

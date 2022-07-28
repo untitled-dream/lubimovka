@@ -34,20 +34,25 @@
 @import url(./blocks/gallery/__image/gallery__image.css);
 
 @import url(./blocks/reviews/reviews.css);
+@import url(./blocks/reviews/_type_overflow/reviews_type_overflow.css);
 @import url(./blocks/reviews/__titile/reviews__title.css);
 
 @import url(./blocks/review/review.css);
+@import url(./blocks/review/_size_big/review_size_big.css);
+@import url(./blocks/review/_size_small/review_size_small.css);
 @import url(./blocks/review/__link-block/review__link-block.css);
 @import url(./blocks/review/__media-logo/review__media-logo.css);
 @import url(./blocks/review/__text/review__text.css);
 
 @import url(./blocks/slider/slider.css);
+@import url(./blocks/slider/__control/slider__control.css);
 @import url(./blocks/slider/__button-container/slider__button-container.css);
 @import url(./blocks/slider/__button/slider__button.css);
 @import url(./blocks/slider/__pagination/slider__pagination.css);
 @import url(./blocks/slider/__dot/slider__dot.css);
 @import url(./blocks/slider/__dot/_active/slider__dot_active.css);
-@import url(./blocks/slider/__items-container/slider__items-container.css);
+@import url(./blocks/slider/__container/slider__container.css);
+@import url(./blocks/slider/__container-overflow/slider__container-overflow.css);
 @import url(./blocks/slider/__item/slider__item.css);
 @import url(./blocks/slider/__item/_active/slider__item_active.css);
 @import url(./blocks/slider/__button/_disable/slider__button_disable.css);

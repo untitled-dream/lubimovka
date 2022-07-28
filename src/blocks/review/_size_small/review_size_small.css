@@ -1,0 +1,9 @@
+.review_size_small {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 0;
+  padding: 33px 30px 24px;
+  height: 361px;
+  width: 420px;
+}
