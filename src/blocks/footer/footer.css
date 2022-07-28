@@ -9,7 +9,8 @@
   color: var(--content-color);
   display: grid;
   grid-template-columns: 6fr 6fr 32fr;
-  grid-template-rows: 104px 259px 100px;
+  grid-template-rows: auto;
+  margin: 0 auto;
 }
 
 @media (max-width: 1080px) {
@@ -20,8 +21,7 @@
 
 @media (max-width: 980px) {
   .footer {
-    padding-left: 59px;
-    padding-right: 55px;
+    padding: 56px 24px 74px 27px;
     display: flex;
     flex-direction: column;
   }

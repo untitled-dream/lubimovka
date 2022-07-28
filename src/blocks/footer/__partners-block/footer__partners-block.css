@@ -2,12 +2,13 @@
   padding-top: 9px;
   grid-column: 2 / span 3;
   display: flex;
+  margin-bottom: 62px;
 }
 
 @media (max-width: 980px) {
   .footer__partners-block {
     margin-top: 89px;
-    margin-left: -12px;
+    margin-bottom: 0;
     padding: 0;
   }
 }
