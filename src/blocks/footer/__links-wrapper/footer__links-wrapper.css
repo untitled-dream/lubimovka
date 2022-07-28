@@ -11,6 +11,7 @@
 
 @media (max-width: 980px) {
   .footer__links-wrapper {
+    
     margin-top: 56px;
     margin-bottom: 0;
     column-gap: 48px;

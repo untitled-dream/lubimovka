@@ -13,8 +13,6 @@
 @media (max-width: 980px) {
   .footer__copyright-wrapper {
     margin-top: 110px;
-    flex-direction: column;
-    row-gap: 60px;
   }
 
   .footer__copyright-wrapper::before {
@@ -25,5 +23,18 @@
     position: absolute;
     top: -30px;
     left: -28px;
+  }
+}
+
+@media (max-width: 720px) {
+  .footer__copyright-wrapper {
+    gap: 60px;
+  }
+}
+
+@media (max-width: 450px) {
+  .footer__copyright-wrapper {
+    flex-direction: column;
+    
   }
 }
