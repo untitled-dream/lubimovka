@@ -1,4 +1,5 @@
 .footer__copyright-wrapper {
+  align-items: flex-start;
   font-size: 14px;
   line-height: 17px;
   display: flex;
