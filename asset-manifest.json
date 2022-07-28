@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/lubimovka/static/css/main.ca24e397.css",
-    "main.js": "/lubimovka/static/js/main.e4fa2264.js",
+    "main.css": "/lubimovka/static/css/main.6460e718.css",
+    "main.js": "/lubimovka/static/js/main.de59ce4c.js",
     "static/media/show-photo-2.jpg": "/lubimovka/static/media/show-photo-2.32c4cad2f4b55903dcb8.jpg",
     "static/media/show-photo-3.jpg": "/lubimovka/static/media/show-photo-3.12eec35a90310aa4cea1.jpg",
     "static/media/partner-mosbrew.svg": "/lubimovka/static/media/partner-mosbrew.870788ad11f848a721ed.svg",
@@ -10,6 +10,7 @@
     "static/media/show-s_uchilishcha.png": "/lubimovka/static/media/show-s_uchilishcha.ad9faa69a35a5b94b4cc.png",
     "static/media/show-photo-7.jpg": "/lubimovka/static/media/show-photo-7.a867c81009e6ff7c9188.jpg",
     "static/media/video-preview.png": "/lubimovka/static/media/video-preview.de9fb1c50f8ab295403a.png",
+    "static/media/show-s_uchilishcha-banner.jpg": "/lubimovka/static/media/show-s_uchilishcha-banner.b49d474bfa0b84bfe9d5.jpg",
     "static/media/partner-prokhorov.svg": "/lubimovka/static/media/partner-prokhorov.7f48f83892839bd49d58.svg",
     "static/media/show-photo-5.jpg": "/lubimovka/static/media/show-photo-5.613bdeb9d52bb4c9b1a6.jpg",
     "static/media/partner-a-pogovorit.svg": "/lubimovka/static/media/partner-a-pogovorit.be22a20a775274a7b38a.svg",
@@ -21,7 +22,7 @@
     "static/media/formular-light.woff2": "/lubimovka/static/media/formular-light.bb36dce4bf0739bcf8d0.woff2",
     "static/media/PPNeueMachina-Regular.woff2": "/lubimovka/static/media/PPNeueMachina-Regular.c304b32936ac5c9266e9.woff2",
     "static/media/show-photo-8.jpg": "/lubimovka/static/media/show-photo-8.f4ac29779c6d110b5ad9.jpg",
-    "static/media/logo-text.svg": "/lubimovka/static/media/logo-text.7ecd439efc86dd9c77d2.svg",
+    "static/media/logo-text.svg": "/lubimovka/static/media/logo-text.4d9f2856d15f670ffea3.svg",
     "static/media/partner-sbtg.svg": "/lubimovka/static/media/partner-sbtg.6dd10ae3cf0b94463aca.svg",
     "static/media/the-new-york-times-logo.svg": "/lubimovka/static/media/the-new-york-times-logo.28a1597778752b0c55df.svg",
     "static/media/logo.svg": "/lubimovka/static/media/logo.d6799cb956f9254e8dda4f2f1d13cebe.svg",
@@ -31,13 +32,13 @@
     "static/media/icon-developer-studio-logo.svg": "/lubimovka/static/media/icon-developer-studio-logo.166ef0622935b6f68cc8.svg",
     "static/media/icon-arrow-45.svg": "/lubimovka/static/media/icon-arrow-45.f1883f4fe9dee03fc8f3.svg",
     "static/media/icon-close.svg": "/lubimovka/static/media/icon-close.e9675a9581c8e397cc12.svg",
-    "static/media/icon-plus.svg": "/lubimovka/static/media/icon-plus.f2740792920531c819ab.svg",
-    "static/media/icon-play.svg": "/lubimovka/static/media/icon-play.bf13beec0fcc7ac4d931.svg",
-    "main.ca24e397.css.map": "/lubimovka/static/css/main.ca24e397.css.map",
-    "main.e4fa2264.js.map": "/lubimovka/static/js/main.e4fa2264.js.map"
+    "static/media/icon-plus.svg": "/lubimovka/static/media/icon-plus.ea584e3078ce90ba8194.svg",
+    "static/media/icon-play.svg": "/lubimovka/static/media/icon-play.710fe5d0b9ec99566659.svg",
+    "main.6460e718.css.map": "/lubimovka/static/css/main.6460e718.css.map",
+    "main.de59ce4c.js.map": "/lubimovka/static/js/main.de59ce4c.js.map"
   },
   "entrypoints": [
-    "static/css/main.ca24e397.css",
-    "static/js/main.e4fa2264.js"
+    "static/css/main.6460e718.css",
+    "static/js/main.de59ce4c.js"
   ]
 }
