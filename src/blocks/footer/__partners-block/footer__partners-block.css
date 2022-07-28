@@ -17,3 +17,9 @@
     max-width: 334px;
   }
 }
+
+@media (max-width: 450px) {
+  .footer__partners-block {
+    margin-top: 56px;
+  }
+}

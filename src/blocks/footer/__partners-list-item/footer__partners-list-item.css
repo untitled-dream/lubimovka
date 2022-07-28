@@ -2,16 +2,14 @@
   margin-right: 32px;
 }
 
-.footer__partners-list-item:nth-child(3) {
-  margin-right: 26px;
-}
-
-.footer__partners-list-item:last-child {
-  margin-right: 0;
-}
 
 @media (max-width: 980px) {
   .footer__partners-list-item {
+    align-items: flex-start;
+    align-self: flex-start;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
     margin: 0;
   }
 }

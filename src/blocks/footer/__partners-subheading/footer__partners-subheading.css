@@ -1,5 +1,7 @@
 .footer__partners-subheading {
   display: none;
+  font-weight: 300;
+  line-height: 20px;
 }
 
 @media screen and (max-width: 720px) {

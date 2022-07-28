@@ -41,7 +41,7 @@ function Footer() {
             <li><a className="footer__link link link_underline" href="#" target="_blank">Все проекты</a></li>
             <li><a className="footer__link link link_underline" href="#" target="_blank">Любимовка.Ещё</a></li>
             <li><a className="footer__link link link_underline" href="#" target="_blank">Спектакли</a></li>
-            <li><a className="footer__link link link_underline" href="#" target="_blank">Сборник Любимовка.Пьесы</a></li>
+            <li><a className="footer__link link link_underline" href="#" target="_blank">Сборник&nbsp;Любимовка.Пьесы</a></li>
             <li><a className="footer__link link link_underline" href="#" target="_blank">Lark+Любимовка</a></li>
             <li><a className="footer__link link link_underline" href="#" target="_blank">Практика постдраматурга</a></li>
             <li><a className="footer__link link link_underline" href="#" target="_blank">Эхо Любимовки</a></li>

@@ -7,13 +7,13 @@
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    row-gap: 62px;
+    row-gap: 30px;
     column-gap: 25px;
   }
 }
 
 @media (max-width: 450px) {
   .footer__partners-list {
-    column-gap: 0;
+    flex-direction: column;
   }
 }
