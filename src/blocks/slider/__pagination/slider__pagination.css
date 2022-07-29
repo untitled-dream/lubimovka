@@ -8,12 +8,12 @@
   position: absolute;
   top: -65px;
   right: 150px;
+  z-index: 2;
 }
 
 @media (max-width: 735px) {
   .slider__pagination {
     top: 28px;
     left: 28px;
-    z-index: 1;
   }
 }

@@ -2,8 +2,6 @@
   margin-bottom: 44px;
   height: 27vw;
   width: 100%;
-  max-width: 690px;
-  max-height: 389px;
   position: relative;
 }
 
@@ -16,5 +14,7 @@
 @media (max-width: 860px) {
   .project-article__video-container {
     height: 48vw;
+    left: calc(-50vw + 50%);
+    width: 100vw;
   }
 }

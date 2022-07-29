@@ -16,3 +16,10 @@
 .project-article__text:not(:first-child) {
   text-indent: 60px;
 }
+
+
+@media (max-width: 860px) {
+  .project-article__text {
+    max-width: 100%;
+  }
+}
