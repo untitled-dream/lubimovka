@@ -7,10 +7,12 @@ import Footer from "./Footer";
 import Scrolling from "./Scrolling";
 
 function App() {
-  return (
+  const [project, setProject] = React.useState('s-uchilisha');
+
+  return ( 
     <>
-      <Header />
-      <Main/>
+      <Header onProject={setProject} />
+      <Main project={project} />
       <Footer />
       <Scrolling />
       

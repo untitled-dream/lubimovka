@@ -1,19 +1,18 @@
-import React from 'react'
+import React from 'react';
 
-import { PlayContext, playInfo } from "../context/PlayContext";
+import { PlayContext, playInfo } from '../context/PlayContext';
 
-import Review from "./Review";
-import Project from "./Project";
-import SocialShare from "./SocialShare";
-import PhotoGallery from "./PhotoGallery";
+import Review from './Review';
+import Project from './Project';
+import SocialShare from './SocialShare';
+import PhotoGallery from './PhotoGallery';
 
-function Main() {
+function Main({ project }) {
   return (
-    <main className="content">
-      <PlayContext.Provider value={playInfo['s-uchilisha']} >
+    <main className='content'>
+      <PlayContext.Provider value={playInfo[project]}>
         <Project />
-        {
-          /*<section className="gallery">
+        {/*<section className="gallery">
               <h2 className="gallery__title">Заголовок&nbsp;блока с&nbsp;фотографиями</h2>
               <ul className="gallery__grid list">
                 <li className="gallery__item"><img className="gallery__image" src="<%=require('./images/show-photo-1.jpg')%>" alt="Сцена из спектакля" /></li>
@@ -25,13 +24,12 @@ function Main() {
                 <li className="gallery__item"><img className="gallery__image" src="<%=require('./images/show-photo-7.jpg')%>" alt="Артисты читают пьесу" /></li>
                 <li className="gallery__item"><img className="gallery__image" src="<%=require('./images/show-photo-8.jpg')%>" alt="Актриса на репетиции" /></li>
               </ul>
-            </section>*/
-        }
+            </section>*/}
         <Review />
         <SocialShare />
       </PlayContext.Provider>
     </main>
-  )
+  );
 }
 
-export default Main
+export default Main;

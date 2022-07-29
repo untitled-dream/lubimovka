@@ -2,7 +2,9 @@ import React from 'react'
 
 import logo from '../images/logo.svg'
 
-function Header() {
+function Header({ onProject }) {
+  const [showSublist, setShowSublist] = React.useState(false);
+
   return (
     <header className="header">
       <a className="header__logo-link" href="#">
@@ -12,7 +14,17 @@ function Header() {
         <ul className="header__menu-list list">
           <li><a className="header__link link" href="#">Афиша</a></li>
           <li><a className="header__link link" href="#">Библиотека</a></li>
-          <li><a className="header__link link" href="#">Проекты</a></li>
+          <li onMouseEnter={() => setShowSublist(true)} onMouseLeave={() => setShowSublist(false)}>
+            <a className="header__link link" href="#">Проекты</a>
+            {showSublist && <ul className="header__menu-sublist list">
+              <li>
+                <p onClick={() => onProject('s-uchilisha')} className="header__sublink link" href="#">С_училища</p>
+              </li>
+              <li>
+                <p onClick={() => onProject('dlan-gospodnya')} className="header__sublink link" href="#">Длань Господня</p>
+              </li>
+            </ul>}
+          </li>
           <li><a className="header__link link" href="#">История</a></li>
           <li><a className="header__link link" href="#">Блог</a></li>
           <li><a className="header__link link" href="#">Новости</a></li>
