@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/lubimovka/static/css/main.8413b263.css",
-    "main.js": "/lubimovka/static/js/main.088c9759.js",
+    "main.js": "/lubimovka/static/js/main.a8269a44.js",
     "static/media/show-photo-2.jpg": "/lubimovka/static/media/show-photo-2.32c4cad2f4b55903dcb8.jpg",
     "static/media/show-photo-3.jpg": "/lubimovka/static/media/show-photo-3.12eec35a90310aa4cea1.jpg",
     "static/media/partner-mosbrew.svg": "/lubimovka/static/media/partner-mosbrew.73e584d8161f97893913.svg",
@@ -35,10 +35,10 @@
     "static/media/icon-plus.svg": "/lubimovka/static/media/icon-plus.6f0ef854b17e8c21f14a.svg",
     "static/media/icon-play.svg": "/lubimovka/static/media/icon-play.f972589f707a82ce6747.svg",
     "main.8413b263.css.map": "/lubimovka/static/css/main.8413b263.css.map",
-    "main.088c9759.js.map": "/lubimovka/static/js/main.088c9759.js.map"
+    "main.a8269a44.js.map": "/lubimovka/static/js/main.a8269a44.js.map"
   },
   "entrypoints": [
     "static/css/main.8413b263.css",
-    "static/js/main.088c9759.js"
+    "static/js/main.a8269a44.js"
   ]
 }
