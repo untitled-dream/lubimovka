@@ -7,7 +7,7 @@ function ProjectHeading({ playInfo, ticketLink }) {
       <p className='project-heading__subtitle'>{playInfo.shortDescription}</p>
       {playInfo.eventDate.date && <div className='tickets'>
         <p className='tickets__date'>{playInfo.eventDate.date + ' ' + playInfo.eventDate.time}</p>
-        <a href={ticketLink} className='tickets__link link link_fill'>Билеты</a>
+        <a href={ticketLink} className='tickets__link link link_type_filling'>Билеты</a>
       </div>}
     </div>
   );

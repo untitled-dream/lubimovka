@@ -5,11 +5,11 @@
   max-width: 160px;
 }
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 980px) {
   .footer__address-text {
     font-size: 16px;
     line-height: 22px;
-    max-width: 278px;
+    max-width: 100%;
     opacity: .6;
   }
 }

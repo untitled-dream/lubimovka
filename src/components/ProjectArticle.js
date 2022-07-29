@@ -22,7 +22,7 @@ function ProjectArticle({ name, paragraphs, authorInfo, links }) {
           <p className='project-card__name'>{name}</p>
           <div className='project-card__container'>
             <a
-              className='project-card__watch link link_fill'
+              className='project-card__watch link link_type_filling'
               href={links.readingLink}
               target='_blank'
               rel='noreferrer'
@@ -30,7 +30,7 @@ function ProjectArticle({ name, paragraphs, authorInfo, links }) {
               Смотреть читку
             </a>
             <a
-              className='project-card__download link link_fill'
+              className='project-card__download link link_type_filling'
               href='./lib/s-uchilisha-ivanov.pdf'
               download
             >

@@ -5,8 +5,8 @@
 @import url(./blocks/root/root.css);
 
 @import url(./blocks/link/link.css);
-@import url(./blocks/link/_fill/link_fill.css);
-@import url(./blocks/link/_underline/link_underline.css);
+@import url(./blocks/link/_type_filling/link_type_filling.css);
+@import url(./blocks/link/_type_underline/link_type_underline.css);
 
 @import url(./blocks/scroll-to-up/scroll-to-up.css);
 @import url(./blocks/scroll-to-up/_active/scroll-to-up_active.css);

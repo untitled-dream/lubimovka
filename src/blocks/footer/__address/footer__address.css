@@ -6,6 +6,15 @@
 
 @media (max-width: 980px) {
   .footer__address {
+    align-items: baseline;
+    display: flex;
+    gap: 16px;
     margin-top: 32px;
+  }
+}
+
+@media (max-width: 720px) {
+  .footer__address {
+    display: grid;
   }
 }
