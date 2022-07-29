@@ -6,7 +6,7 @@ function ProjectProperties({ properties }) {
 
   return (
     <div className='project-properties'>
-      <h2 className='project-properties__duration'>{`${hours} ч. ${minutes} мин. | ${properties.ageLimit}`}</h2>
+      <h2 className='project-properties__duration'>{`${hours} ч. ${(minutes === 0) ? '00' : minutes} мин. | ${properties.ageLimit}`}</h2>
       <ul className='authors'>
         {properties.dramaturge && (
           <li className='authors__character'>
