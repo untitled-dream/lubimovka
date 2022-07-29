@@ -12,7 +12,7 @@ function App() {
       <Header />
       <Main/>
       <Footer />
-      <Scrolling />
+      {/* <Scrolling/> */}
       
       <div className="popup" id="photo-gallery-view">
         <div className="popup__container">
