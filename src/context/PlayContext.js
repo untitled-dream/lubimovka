@@ -19,8 +19,8 @@ export const playInfo = {
     },
     authorInfo: {
       author: 'Андрей Иванов',
-      city: 'Санкт-Петербург',
-      creationYear: '2020',
+      city: 'Москва',
+      creationYear: '2018',
     },
     properties: {
       duration: '75',
@@ -92,7 +92,7 @@ export const playInfo = {
       },
     },
     authorInfo: {
-      author: 'Андрей Иванов',
+      author: 'Роберт Аскинс',
       city: 'Санкт-Петербург',
       creationYear: '2020',
     },
