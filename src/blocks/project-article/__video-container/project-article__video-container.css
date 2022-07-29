@@ -1,20 +1,16 @@
 .project-article__video-container {
-  margin-bottom: 44px;
+  margin-bottom: 66px;
   height: 27vw;
   width: 100%;
   position: relative;
-}
-
-@media (max-width: 1440px) {
-  .project-article__video-container {
-    margin-bottom: 12px;
-  }
+  max-height: 389px;
 }
 
 @media (max-width: 860px) {
   .project-article__video-container {
     height: 48vw;
     left: calc(-50vw + 50%);
+    margin-bottom: 32px;
     width: 100vw;
   }
 }
