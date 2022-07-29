@@ -5,8 +5,8 @@
 @import url(./blocks/root/root.css);
 
 @import url(./blocks/link/link.css);
-@import url(./blocks/link/_fill/link_fill.css);
-@import url(./blocks/link/_underline/link_underline.css);
+@import url(./blocks/link/_type_filling/link_type_filling.css);
+@import url(./blocks/link/_type_underline/link_type_underline.css);
 
 @import url(./blocks/scroll-to-up/scroll-to-up.css);
 @import url(./blocks/scroll-to-up/_active/scroll-to-up_active.css);
@@ -107,27 +107,24 @@
 @import url(./blocks/footer/__address/footer__address.css);
 @import url(./blocks/footer/__address-spot/footer__address-spot.css);
 @import url(./blocks/footer/__address-text/footer__address-text.css);
+@import url(./blocks/footer/__copyright-wrapper/footer__copyright-wrapper.css);
 @import url(./blocks/footer/__copyright/footer__copyright.css);
+@import url(./blocks/footer/__credits/footer__credits.css);
 @import url(./blocks/footer/__credits-design/footer__credits-design.css);
 @import url(./blocks/footer/__credits-design-logo/footer__credits-design-logo.css);
 @import url(./blocks/footer/__credits-design-text/footer__credits-design-text.css);
 @import url(./blocks/footer/__credits-web/footer__credits-web.css);
-@import url(./blocks/footer/__link/footer__link.css);
 @import url(./blocks/footer/__logo-link/footer__logo-link.css);
 @import url(./blocks/footer/__logo/footer__logo.css);
 @import url(./blocks/footer/__partners-heading/footer__partners-heading.css);
 @import url(./blocks/footer/__partners-block/footer__partners-block.css);
-@import url(./blocks/footer/__links/footer__links.css);
+@import url(./blocks/footer/__links-wrapper/footer__links-wrapper.css);
 @import url(./blocks/footer/__links-list/footer__links-list.css);
-@import url(./blocks/footer/__partners-link/footer__partners-link.css);
 @import url(./blocks/footer/__partners-list/footer__partners-list.css);
 @import url(./blocks/footer/__partners-list-item/footer__partners-list-item.css);
 @import url(./blocks/footer/__partners-logo/footer__partners-logo.css);
-
 @import url(./blocks/footer/__partners-subheading/footer__partners-subheading.css);
 @import url(./blocks/footer/__privacy-policy/footer__privacy-policy.css);
-@import url(./blocks/footer/__separator/footer__separator.css);
-
 @import url(./blocks/footer/__privacy-policy/footer__privacy-policy.css);
 
 @import url(./blocks/popup/popup.css);

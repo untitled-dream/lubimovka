@@ -1,14 +1,10 @@
 .footer__credits-web {
   margin: 0;
-  grid-row: 5;
-  grid-column: 9;
-  min-width: 207px;
+  max-width: 207px;
 }
 
-@media screen and (max-width: 720px) {
+@media (max-width: 980px) {
   .footer__credits-web {
-    grid-row: 15;
-    grid-column: 1 / span 2;
     max-width: 255px;
   }
 }

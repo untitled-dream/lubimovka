@@ -1,16 +1,9 @@
 .footer__credits-design {
-  grid-row: 5;
-  grid-column: 7 / span 2;
+  max-width: 150px;
   display: flex;
   gap: 2px;
   height: 36px;
-}
-
-@media screen and (max-width: 720px) {
-  .footer__credits-design {
-    grid-row: 13;
-    grid-column: 1 / span 2;
-    max-width: 150px;
-    gap: 9px;
-  }
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 17px;
 }
