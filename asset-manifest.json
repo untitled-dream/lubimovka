@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/lubimovka/static/css/main.a1a4fa28.css",
+    "main.css": "/lubimovka/static/css/main.8413b263.css",
     "main.js": "/lubimovka/static/js/main.088c9759.js",
     "static/media/show-photo-2.jpg": "/lubimovka/static/media/show-photo-2.32c4cad2f4b55903dcb8.jpg",
     "static/media/show-photo-3.jpg": "/lubimovka/static/media/show-photo-3.12eec35a90310aa4cea1.jpg",
@@ -34,11 +34,11 @@
     "static/media/icon-close.svg": "/lubimovka/static/media/icon-close.3ccc432d8e2371ea640a.svg",
     "static/media/icon-plus.svg": "/lubimovka/static/media/icon-plus.6f0ef854b17e8c21f14a.svg",
     "static/media/icon-play.svg": "/lubimovka/static/media/icon-play.f972589f707a82ce6747.svg",
-    "main.a1a4fa28.css.map": "/lubimovka/static/css/main.a1a4fa28.css.map",
+    "main.8413b263.css.map": "/lubimovka/static/css/main.8413b263.css.map",
     "main.088c9759.js.map": "/lubimovka/static/js/main.088c9759.js.map"
   },
   "entrypoints": [
-    "static/css/main.a1a4fa28.css",
+    "static/css/main.8413b263.css",
     "static/js/main.088c9759.js"
   ]
 }
