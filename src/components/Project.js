@@ -8,23 +8,24 @@ import ProjectProperties from './ProjectProperties';
 import ProjectArticle from './ProjectArticle';
 
 function Project() {
-  const playInfo = React.useContext(PlayContext);
   
+  const { description, links, properties, ...props } = React.useContext(PlayContext);
+
   return (
     <section className='project'>
       <ProjectHeading
-        playInfo={playInfo.description}
-        ticketLink={playInfo.links.ticketLink}
+        playInfo={description}
+        ticketLink={links.ticketLink}
       />
       <ProjectAnnotation
-        annotation={playInfo.description.annotation}
-        cover={playInfo.description.image.cover}/>
-      <ProjectProperties properties={playInfo.properties} />
+        annotation={description.annotation}
+        cover={description.image.cover}/>
+      <ProjectProperties properties={properties} />
       <ProjectArticle
-        name={playInfo.description.name}
-        paragraphs={playInfo.article}
-        authorInfo={playInfo.authorInfo}
-        links={playInfo.links}
+        name={description.name}
+        paragraphs={props.article}
+        authorInfo={props.authorInfo}
+        links={links}
       />
     </section>
   );

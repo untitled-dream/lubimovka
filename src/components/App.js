@@ -13,15 +13,6 @@ function App() {
       <Main/>
       <Footer />
       {/* <Scrolling/> */}
-      
-      <div className="popup" id="photo-gallery-view">
-        <div className="popup__container">
-          <img className="popup__gallery-image" src="data:," alt="Описание" />
-          <button className="popup__button-close button" type="button" title="Закрыть окно" />
-          <button className="popup__slider-button button" type="button" title="Предыдущая фотография" />
-          <button className="popup__slider-button button" type="button" title="Следующая фотография" />
-        </div>
-      </div>
     </>
   );
 }

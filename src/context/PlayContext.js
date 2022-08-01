@@ -22,6 +22,16 @@ export const playInfo = {
       city: 'Санкт-Петербург',
       creationYear: '2020',
     },
+    photoGallery: [
+      's-uchilisha-photo-1.jpg',
+      's-uchilisha-photo-2.jpg',
+      's-uchilisha-photo-3.jpg',
+      's-uchilisha-photo-4.jpg',
+      's-uchilisha-photo-5.jpg',
+      's-uchilisha-photo-6.jpg',
+      's-uchilisha-photo-7.jpg',
+      's-uchilisha-photo-8.jpg'
+    ],
     properties: {
       duration: '75',
       ageLimit: '18+',
