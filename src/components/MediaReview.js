@@ -46,7 +46,7 @@ function MediaReview({reviews}) {
                     <article className='review review_size_big'>
                       <img className='review__media-logo' src={require(`../images/${item.logo}`)} alt={item.title} />
                       <p className='review__text'>{item.text}</p>
-                      <a href={item.readMoreLink} className='review__link-block link link_fill'>Читать полностью</a>
+                      <a href={item.readMoreLink} className='review__link-block link link_type_filling'>Читать полностью</a>
                     </article>
                   </div>
                 )}
