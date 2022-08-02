@@ -11,7 +11,7 @@ import ImagePopup from './ImagePopup';
 
 function Main() {
 
-  
+
   const [isViewImagePopupOpen, setViewImagePopupOpen] = useState(false);
   const [selectedPhotoIndex, setSelectedPhoto] = useState();
 
@@ -28,15 +28,16 @@ function Main() {
     <main className="content">
       <PlayContext.Provider value={playInfo['s-uchilisha']} >
         <Project />
-        <PhotoGallery onPhotoClick={handlePhotoClick}/>
+        <PhotoGallery onPhotoClick={handlePhotoClick} />
         <Review />
         <SocialShare />
 
-        <ImagePopup
-          isOpen={isViewImagePopupOpen}
-          photoIndex={selectedPhotoIndex}
-          onClose={closeAllPopups}
-        />
+        {isViewImagePopupOpen &&
+          <ImagePopup
+            isOpen={isViewImagePopupOpen}
+            photoIndex={selectedPhotoIndex}
+            onClose={closeAllPopups}
+          />}
       </PlayContext.Provider>
     </main>
   )
