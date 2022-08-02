@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/lubimovka/static/css/main.8413b263.css",
-    "main.js": "/lubimovka/static/js/main.a8269a44.js",
-    "static/media/show-photo-2.jpg": "/lubimovka/static/media/show-photo-2.32c4cad2f4b55903dcb8.jpg",
-    "static/media/show-photo-3.jpg": "/lubimovka/static/media/show-photo-3.12eec35a90310aa4cea1.jpg",
+    "main.css": "/lubimovka/static/css/main.d30a5bb5.css",
+    "main.js": "/lubimovka/static/js/main.477e5ed4.js",
+    "static/media/s-uchilisha-photo-2.jpg": "/lubimovka/static/media/s-uchilisha-photo-2.32c4cad2f4b55903dcb8.jpg",
+    "static/media/s-uchilisha-photo-3.jpg": "/lubimovka/static/media/s-uchilisha-photo-3.12eec35a90310aa4cea1.jpg",
     "static/media/partner-mosbrew.svg": "/lubimovka/static/media/partner-mosbrew.73e584d8161f97893913.svg",
-    "static/media/show-photo-4.jpg": "/lubimovka/static/media/show-photo-4.614e890df0bf2fb41a38.jpg",
-    "static/media/show-photo-6.jpg": "/lubimovka/static/media/show-photo-6.a108b35ecdb7f21aa2dd.jpg",
+    "static/media/s-uchilisha-photo-4.jpg": "/lubimovka/static/media/s-uchilisha-photo-4.614e890df0bf2fb41a38.jpg",
+    "static/media/s-uchilisha-photo-6.jpg": "/lubimovka/static/media/s-uchilisha-photo-6.a108b35ecdb7f21aa2dd.jpg",
     "static/media/show-s_uchilishcha.png": "/lubimovka/static/media/show-s_uchilishcha.ad9faa69a35a5b94b4cc.png",
-    "static/media/show-photo-7.jpg": "/lubimovka/static/media/show-photo-7.a867c81009e6ff7c9188.jpg",
+    "static/media/s-uchilisha-photo-7.jpg": "/lubimovka/static/media/s-uchilisha-photo-7.a867c81009e6ff7c9188.jpg",
     "static/media/video-preview.png": "/lubimovka/static/media/video-preview.de9fb1c50f8ab295403a.png",
     "static/media/show-s_uchilishcha-banner.jpg": "/lubimovka/static/media/show-s_uchilishcha-banner.b49d474bfa0b84bfe9d5.jpg",
     "static/media/partner-prokhorov.svg": "/lubimovka/static/media/partner-prokhorov.26d9e83cbec9f1132f19.svg",
-    "static/media/show-photo-5.jpg": "/lubimovka/static/media/show-photo-5.613bdeb9d52bb4c9b1a6.jpg",
+    "static/media/s-uchilisha-photo-5.jpg": "/lubimovka/static/media/s-uchilisha-photo-5.613bdeb9d52bb4c9b1a6.jpg",
     "static/media/partner-a-pogovorit.svg": "/lubimovka/static/media/partner-a-pogovorit.a7dfb1a471a02fbd1918.svg",
     "static/media/formular-light.woff": "/lubimovka/static/media/formular-light.88d9ef8b8cef1afd8934.woff",
-    "static/media/show-photo-1.jpg": "/lubimovka/static/media/show-photo-1.6de89ce2c1b92003bf45.jpg",
+    "static/media/s-uchilisha-photo-1.jpg": "/lubimovka/static/media/s-uchilisha-photo-1.6de89ce2c1b92003bf45.jpg",
     "static/media/formular-light.eot": "/lubimovka/static/media/formular-light.bebcc28f63173eef4ac3.eot",
     "static/media/PPNeueMachina-Regular.woff": "/lubimovka/static/media/PPNeueMachina-Regular.bdf008866d5edfcf775e.woff",
     "static/media/PPNeueMachina-Regular.eot": "/lubimovka/static/media/PPNeueMachina-Regular.9dfa755d98bd278a9344.eot",
     "static/media/formular-light.woff2": "/lubimovka/static/media/formular-light.bb36dce4bf0739bcf8d0.woff2",
     "static/media/PPNeueMachina-Regular.woff2": "/lubimovka/static/media/PPNeueMachina-Regular.c304b32936ac5c9266e9.woff2",
-    "static/media/show-photo-8.jpg": "/lubimovka/static/media/show-photo-8.f4ac29779c6d110b5ad9.jpg",
+    "static/media/s-uchilisha-photo-8.jpg": "/lubimovka/static/media/s-uchilisha-photo-8.f4ac29779c6d110b5ad9.jpg",
     "static/media/logo-text.svg": "/lubimovka/static/media/logo-text.1db07cc260522daabafd.svg",
     "static/media/partner-sbtg.svg": "/lubimovka/static/media/partner-sbtg.d8c5e9c9c23c4fded2e4.svg",
     "static/media/the-new-york-times-logo.svg": "/lubimovka/static/media/the-new-york-times-logo.28a1597778752b0c55df.svg",
@@ -34,11 +34,11 @@
     "static/media/icon-close.svg": "/lubimovka/static/media/icon-close.3ccc432d8e2371ea640a.svg",
     "static/media/icon-plus.svg": "/lubimovka/static/media/icon-plus.6f0ef854b17e8c21f14a.svg",
     "static/media/icon-play.svg": "/lubimovka/static/media/icon-play.f972589f707a82ce6747.svg",
-    "main.8413b263.css.map": "/lubimovka/static/css/main.8413b263.css.map",
-    "main.a8269a44.js.map": "/lubimovka/static/js/main.a8269a44.js.map"
+    "main.d30a5bb5.css.map": "/lubimovka/static/css/main.d30a5bb5.css.map",
+    "main.477e5ed4.js.map": "/lubimovka/static/js/main.477e5ed4.js.map"
   },
   "entrypoints": [
-    "static/css/main.8413b263.css",
-    "static/js/main.a8269a44.js"
+    "static/css/main.d30a5bb5.css",
+    "static/js/main.477e5ed4.js"
   ]
 }
