@@ -9,11 +9,14 @@ function SocialShare() {
     <section className="share">
       <img className="share__banner" src={require(`../images/${description.image.banner}`)} alt='Пьеса С_училища. Баннер' />
       <div className="share__wrapper">
-        <h2 className="share__heading">Рассказать о&nbsp;спектакле&nbsp;в&nbsp;соцсетях</h2>
+        <h2 className="share__heading">
+          <span>Рассказать</span>
+          <span>о&nbsp;спектакле в&nbsp;соцсетях</span>
+        </h2>
         <div className="share__social-list">
-          <a className="share__social-link link link_type_filling" href="#" rel="noopener noreferrer">fb</a>
-          <a className="share__social-link link link_type_filling" href="#" rel="noopener noreferrer">vk</a>
-          <a className="share__social-link link link_type_filling" href="#" rel="noopener noreferrer">twtr</a>
+          <a className="share__social-link link link_type_filling" href="#" target='_blank' rel="noopener noreferrer">fb</a>
+          <a className="share__social-link link link_type_filling" href="#" target='_blank' rel="noopener noreferrer">vk</a>
+          <a className="share__social-link link link_type_filling" href="#" target='_blank' rel="noopener noreferrer">twtr</a>
         </div>
       </div>
     </section>

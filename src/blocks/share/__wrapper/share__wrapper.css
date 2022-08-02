@@ -1,5 +1,11 @@
 .share__wrapper {
-    margin: 0 auto 0 25%;
-    max-width: 666px;
-    position: relative;
+  margin: 0 auto 0 25%;
+  max-width: 666px;
+  position: relative;
+}
+
+@media screen and (max-width: 1080px) {
+  .share__wrapper {
+    margin: 0 auto;
+  }
 }

@@ -6,7 +6,7 @@
   font-family: 'Neue Machina', Arial, Helvetica, sans-serif;
 }
 
-@media (max-width: 732px) {
+@media (max-width: 720px) {
   .reviews {
     padding-top: 105px;
     padding-bottom: 0;
