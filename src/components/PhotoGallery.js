@@ -5,8 +5,8 @@ function PhotoGallery({ onPhotoClick }) {
 
   const { photoGallery } = useContext(PlayContext);
 
-  const handleCardClick = (evt) => {
-    onPhotoClick(evt.target.src);
+  const handlePhotoClick = (i) => {
+    onPhotoClick(i);
   }
 
   return (
@@ -16,10 +16,9 @@ function PhotoGallery({ onPhotoClick }) {
         {
           photoGallery &&
           photoGallery.map((item, i) => (
-            <li className="gallery__item" key={i}>
+            <li className="gallery__item" key={i} onClick={() => handlePhotoClick(i)}>
               <img
                 className="gallery__image"
-                onClick={handleCardClick}
                 src={require(`../images/${item}`)}
                 alt="С_училища"
               />

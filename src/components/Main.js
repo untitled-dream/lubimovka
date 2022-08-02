@@ -1,4 +1,4 @@
-import { useState, useContext } from 'react'
+import { useState } from 'react'
 
 import { PlayContext, playInfo } from "../context/PlayContext";
 
@@ -11,16 +11,17 @@ import ImagePopup from './ImagePopup';
 
 function Main() {
 
+  
   const [isViewImagePopupOpen, setViewImagePopupOpen] = useState(false);
-  const [selectedPhoto, setSelectedPhoto] = useState('');
+  const [selectedPhotoIndex, setSelectedPhoto] = useState();
 
-  function handlePhotoClick(photo) {
-    setSelectedPhoto(photo);
+  function handlePhotoClick(photoIndex) {
+    setSelectedPhoto(photoIndex);
     setViewImagePopupOpen(true);
   }
 
   function closeAllPopups() {
-    setSelectedPhoto('')
+    setViewImagePopupOpen(false)
   }
 
   return (
@@ -33,7 +34,7 @@ function Main() {
 
         <ImagePopup
           isOpen={isViewImagePopupOpen}
-          selectedPhoto={selectedPhoto}
+          photoIndex={selectedPhotoIndex}
           onClose={closeAllPopups}
         />
       </PlayContext.Provider>
