@@ -3,10 +3,7 @@
   height: 17.43vw;
   max-height: 251px;
   cursor: pointer;
-  outline: 1px solid;
-  outline-offset: -1px;
   box-sizing: border-box;
-
   object-fit: cover;  
 }
 
