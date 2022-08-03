@@ -1,6 +1,7 @@
 import React from 'react'
 
 import logo from '../images/logo.svg'
+import menu from '../images/icon-burger-menu.svg'
 
 function Header() {
   return (
@@ -30,8 +31,11 @@ function Header() {
         </ul>
       </nav>
       <div className="header__donation">
-        <a className="header__link link" href="#" target="_blank" rel="noopener noreferrer"><span className="header__donation-text">Поддержать<span /></span></a>
+        <a className="header__link link" href="#" target="_blank" rel="noopener noreferrer">
+          <span className="header__donation-text">Поддержать</span>
+        </a>
       </div>
+      <img className='header__menu' src={menu} alt='Меню'/>
     </header>
   )
 }

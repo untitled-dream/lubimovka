@@ -1,0 +1,14 @@
+.header__menu {
+  background-color: var(--content-color);
+  cursor: pointer;
+  display: none;
+  width: 20px;
+  height: 13px;
+  padding: 21px;
+}
+
+@media screen and (max-width: 1357px) {
+  .header__menu {
+    display: block;
+  }
+}
