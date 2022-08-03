@@ -1,0 +1,11 @@
+.slider__title-and-control-container {
+  max-width: 718px;
+  margin: 0 auto 59px auto;
+  position: relative;
+}
+
+@media (max-width: 720px) {
+  .slider__title-and-control-container {
+    margin-bottom: 24px;
+  }
+}
