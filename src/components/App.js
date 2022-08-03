@@ -1,17 +1,21 @@
 import React from "react";
 
+import useWindowDimensions from '../hooks/useWindowDimensions';
+
+import Menu from "./Menu";
+
 import Header from "./Header";
 import Main from "./Main";
 import Footer from "./Footer";
 
 import Scrolling from "./Scrolling";
-import Menu from "./Menu";
 
 function App() {
+  const { width } = useWindowDimensions();
   return (
     <>
-      <Header />
-      <Menu/>
+      <Header currentWindowWidth={width}/>
+      <Menu currentWindowWidth={width} />
       <Main />
       <Footer />
       {/* <Scrolling/> */}

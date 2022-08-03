@@ -2,7 +2,8 @@ import React from 'react'
 
 import logo from '../images/logo.svg'
 
-function Header() {
+function Header({ currentWindowWidth }) {
+
   return (
     <header className="header">
       <a className="header__logo-link" href="#">

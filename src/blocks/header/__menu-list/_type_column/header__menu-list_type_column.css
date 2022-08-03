@@ -1,3 +1,5 @@
 .header__menu-list_type_column {
+  align-items: flex-end;
   flex-direction: column;
+  gap: 5px;
 }
