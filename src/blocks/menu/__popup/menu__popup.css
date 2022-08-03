@@ -1,0 +1,8 @@
+.menu__popup {
+  border: 1px solid var(--content-color);
+  background-color: var(--background-color);
+  padding: 10px;
+  position: absolute;
+  top: 0;
+  right: 60px;
+}

@@ -5,14 +5,16 @@ import Main from "./Main";
 import Footer from "./Footer";
 
 import Scrolling from "./Scrolling";
+import Menu from "./Menu";
 
 function App() {
   return (
     <>
       <Header />
-     <Main/>
+      <Menu/>
+      <Main />
       <Footer />
-       {/* <Scrolling/> */}
+      {/* <Scrolling/> */}
     </>
   );
 }

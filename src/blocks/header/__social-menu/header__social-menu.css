@@ -8,12 +8,11 @@
 
 @media screen and (max-width: 1357px) {
   .header__social-menu {
-    padding: 10px 7px 20px 7px;
     border-right: none;
   }
 }
 
-@media screen and (max-width: 1199px) {
+@media screen and (max-width: 1230px) {
   .header__social-menu {
     display: none;
   }

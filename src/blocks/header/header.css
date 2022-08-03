@@ -6,3 +6,15 @@
   font-family: 'Formular', Arial, sans-serif;
   margin-top: 10px;
 }
+
+@media screen and (max-width:1357px) {
+  .header {
+    justify-content: flex-start;
+  }
+}
+
+@media screen and (max-width: 936px) {
+  .header {
+    border-bottom: 1px solid transparent;
+  }
+}

@@ -3,6 +3,12 @@
   width: 100%;
 }
 
+@media screen and (max-width: 1357px) {
+  .header__sections-menu {
+    width: auto;
+  }
+}
+
 @media screen and (max-width: 936px) {
   .header__sections-menu {
     display: none;

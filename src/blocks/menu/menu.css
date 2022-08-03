@@ -1,6 +1,6 @@
-.header__menu {
+.menu {
   border: none;
-  background: var(--content-color) url(../../../images/icon-burger-menu.svg) no-repeat center;
+  background: var(--content-color) url(../../images/icon-burger-menu.svg) no-repeat center;
   background-size: 20px 12px;
   cursor: pointer;
   display: none;
@@ -13,7 +13,7 @@
 }
 
 @media screen and (max-width: 1357px) {
-  .header__menu {
+  .menu {
     display: block;
   }
 }
