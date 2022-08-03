@@ -11,9 +11,3 @@
     border-right: none;
   }
 }
-
-@media screen and (max-width: 1230px) {
-  .header__social-menu {
-    display: none;
-  }
-}

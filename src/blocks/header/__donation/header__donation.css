@@ -1,9 +1,3 @@
 .header__donation {
   padding: 10px 20px 20px 17px;
 }
-
-@media screen and (max-width: 1357px) {
-  .header__donation {
-    display: none;
-  }
-}

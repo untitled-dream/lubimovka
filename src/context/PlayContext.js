@@ -9,7 +9,7 @@ export const playInfo = {
       annotation:
         'Семён Серзин сделал читку этой пьесы в рамках основной программы Любимовки-2017, Варочный Цех предоставил грант на постановку, а Московский драматический театр имени А.С. Пушкина принял спектакль в репертуар.',
       image: {
-        cover: 'show-s_uchilishcha.png',
+        cover: 'show-s_uchilishcha.jpg',
         banner: 'show-s_uchilishcha-banner.jpg'
       },
       eventDate: {

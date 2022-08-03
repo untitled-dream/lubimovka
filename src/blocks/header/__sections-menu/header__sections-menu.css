@@ -8,9 +8,3 @@
     width: auto;
   }
 }
-
-@media screen and (max-width: 936px) {
-  .header__sections-menu {
-    display: none;
-  }
-}
