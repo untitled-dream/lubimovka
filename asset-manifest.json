@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/lubimovka/static/css/main.78d0e3d0.css",
-    "main.js": "/lubimovka/static/js/main.a51efde0.js",
-    "static/media/s-uchilisha-photo-2.jpg": "/lubimovka/static/media/s-uchilisha-photo-2.32c4cad2f4b55903dcb8.jpg",
-    "static/media/s-uchilisha-photo-3.jpg": "/lubimovka/static/media/s-uchilisha-photo-3.12eec35a90310aa4cea1.jpg",
+    "main.css": "/lubimovka/static/css/main.dd15f080.css",
+    "main.js": "/lubimovka/static/js/main.a31f79d5.js",
     "static/media/partner-mosbrew.svg": "/lubimovka/static/media/partner-mosbrew.870788ad11f848a721ed.svg",
-    "static/media/s-uchilisha-photo-4.jpg": "/lubimovka/static/media/s-uchilisha-photo-4.614e890df0bf2fb41a38.jpg",
-    "static/media/s-uchilisha-photo-6.jpg": "/lubimovka/static/media/s-uchilisha-photo-6.a108b35ecdb7f21aa2dd.jpg",
-    "static/media/show-s_uchilishcha.png": "/lubimovka/static/media/show-s_uchilishcha.ad9faa69a35a5b94b4cc.png",
-    "static/media/s-uchilisha-photo-7.jpg": "/lubimovka/static/media/s-uchilisha-photo-7.a867c81009e6ff7c9188.jpg",
+    "static/media/s-uchilisha-photo-3.jpg": "/lubimovka/static/media/s-uchilisha-photo-3.29cfd9e45ac5873dd520.jpg",
+    "static/media/s-uchilisha-photo-7.jpg": "/lubimovka/static/media/s-uchilisha-photo-7.9eea8a921a7051659355.jpg",
+    "static/media/s-uchilisha-photo-2.jpg": "/lubimovka/static/media/s-uchilisha-photo-2.88582359b963dd865ee4.jpg",
     "static/media/video-preview.png": "/lubimovka/static/media/video-preview.de9fb1c50f8ab295403a.png",
+    "static/media/s-uchilisha-photo-4.jpg": "/lubimovka/static/media/s-uchilisha-photo-4.ac9a869b9004f3c1f2c2.jpg",
     "static/media/show-s_uchilishcha-banner.jpg": "/lubimovka/static/media/show-s_uchilishcha-banner.b49d474bfa0b84bfe9d5.jpg",
     "static/media/partner-prokhorov.svg": "/lubimovka/static/media/partner-prokhorov.7f48f83892839bd49d58.svg",
     "static/media/s-uchilisha-photo-5.jpg": "/lubimovka/static/media/s-uchilisha-photo-5.613bdeb9d52bb4c9b1a6.jpg",
+    "static/media/s-uchilisha-photo-6.jpg": "/lubimovka/static/media/s-uchilisha-photo-6.d00d3f6f122ca27418e8.jpg",
     "static/media/partner-a-pogovorit.svg": "/lubimovka/static/media/partner-a-pogovorit.be22a20a775274a7b38a.svg",
+    "static/media/show-s_uchilishcha.jpg": "/lubimovka/static/media/show-s_uchilishcha.f105ebdf917b38dc29e7.jpg",
     "static/media/formular-light.woff": "/lubimovka/static/media/formular-light.88d9ef8b8cef1afd8934.woff",
     "static/media/s-uchilisha-photo-1.jpg": "/lubimovka/static/media/s-uchilisha-photo-1.6de89ce2c1b92003bf45.jpg",
     "static/media/formular-light.eot": "/lubimovka/static/media/formular-light.bebcc28f63173eef4ac3.eot",
@@ -35,11 +35,11 @@
     "static/media/icon-close.svg": "/lubimovka/static/media/icon-close.e9675a9581c8e397cc12.svg",
     "static/media/icon-plus.svg": "/lubimovka/static/media/icon-plus.6f0ef854b17e8c21f14a.svg",
     "static/media/icon-play.svg": "/lubimovka/static/media/icon-play.f972589f707a82ce6747.svg",
-    "main.78d0e3d0.css.map": "/lubimovka/static/css/main.78d0e3d0.css.map",
-    "main.a51efde0.js.map": "/lubimovka/static/js/main.a51efde0.js.map"
+    "main.dd15f080.css.map": "/lubimovka/static/css/main.dd15f080.css.map",
+    "main.a31f79d5.js.map": "/lubimovka/static/js/main.a31f79d5.js.map"
   },
   "entrypoints": [
-    "static/css/main.78d0e3d0.css",
-    "static/js/main.a51efde0.js"
+    "static/css/main.dd15f080.css",
+    "static/js/main.a31f79d5.js"
   ]
 }
