@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/lubimovka/static/css/main.c24abc59.css",
-    "main.js": "/lubimovka/static/js/main.71030d1b.js",
+    "main.css": "/lubimovka/static/css/main.78d0e3d0.css",
+    "main.js": "/lubimovka/static/js/main.a51efde0.js",
     "static/media/s-uchilisha-photo-2.jpg": "/lubimovka/static/media/s-uchilisha-photo-2.32c4cad2f4b55903dcb8.jpg",
     "static/media/s-uchilisha-photo-3.jpg": "/lubimovka/static/media/s-uchilisha-photo-3.12eec35a90310aa4cea1.jpg",
     "static/media/partner-mosbrew.svg": "/lubimovka/static/media/partner-mosbrew.870788ad11f848a721ed.svg",
@@ -35,11 +35,11 @@
     "static/media/icon-close.svg": "/lubimovka/static/media/icon-close.e9675a9581c8e397cc12.svg",
     "static/media/icon-plus.svg": "/lubimovka/static/media/icon-plus.6f0ef854b17e8c21f14a.svg",
     "static/media/icon-play.svg": "/lubimovka/static/media/icon-play.f972589f707a82ce6747.svg",
-    "main.c24abc59.css.map": "/lubimovka/static/css/main.c24abc59.css.map",
-    "main.71030d1b.js.map": "/lubimovka/static/js/main.71030d1b.js.map"
+    "main.78d0e3d0.css.map": "/lubimovka/static/css/main.78d0e3d0.css.map",
+    "main.a51efde0.js.map": "/lubimovka/static/js/main.a51efde0.js.map"
   },
   "entrypoints": [
-    "static/css/main.c24abc59.css",
-    "static/js/main.71030d1b.js"
+    "static/css/main.78d0e3d0.css",
+    "static/js/main.a51efde0.js"
   ]
 }
