@@ -8,4 +8,4 @@ const MenuDonation = React.memo(() => {
   )
 })
 
-export default MenuDonation
+export default MenuDonation;
