@@ -45,7 +45,7 @@
 @import url(./blocks/review/__text/_media/review__text_media.css);
 
 @import url(./blocks/slider/slider.css);
-@import url(./blocks/slider/_media/slider_full-width.css);
+@import url(./blocks/slider/_media/slider_media.css);
 @import url(./blocks/slider/__title-and-control-container/slider__title-and-control-container.css);
 @import url(./blocks/slider/__title-and-control-container/_media/slider__title-and-control-container_media.css);
 @import url(./blocks/slider/__titile/slider__title.css);
