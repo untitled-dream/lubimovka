@@ -1,14 +1,14 @@
 import React from 'react'
 import logo from '../images/logo.svg'
 
-function Header({ currentWindowWidth, menuNavigation, menuSocial, menuDonation }) {
+const Header = ({ currentWindowWidth, menuNavigation, menuSocial, menuDonation }) => {
   return (
     <header className="header">
       <a className="header__logo-link" href="#">
         <img className="header__logo" src={logo} alt="Логотип фестиваля Любимовка" />
       </a>
       
-      {currentWindowWidth > 936 &&
+      {currentWindowWidth >= 936 &&
         <nav className="header__sections-menu">
           {menuNavigation}
         </nav>

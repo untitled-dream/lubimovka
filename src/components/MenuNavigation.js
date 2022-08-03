@@ -1,6 +1,6 @@
 import React from 'react'
 
-export function _MenuNavigation({ state }) {
+const MenuNavigation = React.memo(({ state }) => {
   return (
     <ul className={state ? 'header__menu-list header__menu-list_type_column list' : 'header__menu-list list'}>
       <li><a className="header__link link" href="#">Афиша</a></li>
@@ -13,6 +13,6 @@ export function _MenuNavigation({ state }) {
       <li><a className="header__link link" href="#">Контакты</a></li>
     </ul>
   )
-}
+})
 
-export const MenuNavigation = React.memo(_MenuNavigation);
+export default MenuNavigation;

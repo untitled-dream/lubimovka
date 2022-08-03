@@ -3,9 +3,9 @@ import { useEffect, useState } from "react";
 import useWindowDimensions from '../hooks/useWindowDimensions';
 
 import Menu from "./Menu";
-import { MenuNavigation } from './MenuNavigation'
-import { MenuSocial } from './MenuSocial'
-import { MenuDonation } from "./MenuDonation";
+import MenuNavigation from './MenuNavigation'
+import MenuSocial from './MenuSocial'
+import MenuDonation from "./MenuDonation";
 
 import Header from "./Header";
 import Main from "./Main";
@@ -16,16 +16,16 @@ import Scrolling from "./Scrolling";
 function App() {
   const { width } = useWindowDimensions();
 
-  const [isMenu, setMenu] = useState(false);
+  const [isMenuState, setMenuState] = useState(false);
   
   useEffect(() => {
     if (width > 1357) {
-      setMenu(!isMenu);
+      setMenuState(!isMenuState);
     }
-  })
+  }, [])
 
-  function handleCloseModal() {
-    setMenu(!isMenu);
+  function handleModalClick() {
+    setMenuState(!isMenuState);
   }
 
   return (
@@ -38,8 +38,8 @@ function App() {
       />
 
       <Menu
-        isMenu={isMenu}
-        onClose={handleCloseModal}
+        isMenuState={isMenuState}
+        onToggleState={handleModalClick}
         currentWindowWidth={width}
         menuNavigation={<MenuNavigation />}
         menuSocial={<MenuSocial />}
