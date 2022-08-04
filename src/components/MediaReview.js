@@ -6,7 +6,7 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 
-function MediaReview({ reviews }) {
+function MediaReview({ id, reviews }) {
   return (
     <section className='reviews'>
       <div className='slider slider_media'>
@@ -45,7 +45,7 @@ function MediaReview({ reviews }) {
                   <article className='review review_size_big'>
                     <img
                       className='review__media-logo'
-                      src={require(`../images/${logo}`)}
+                      src={require(`../images/plays/${id}/reviews/${logo}`)}
                       alt={title}
                     />
                     <p className='review__text review__text_media'>{text}</p>

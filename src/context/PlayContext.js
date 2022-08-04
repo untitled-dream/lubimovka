@@ -2,6 +2,7 @@ import React from 'react';
 
 export const playInfo = {
   's-uchilisha': {
+    id: 's-uchilisha',
     description: {
       name: 'С_училища',
       shortDescription:

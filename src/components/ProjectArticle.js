@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Video from './Video';
 
-const ProjectArticle = React.memo(({ name, paragraphs, authorInfo, links }) => {
+const ProjectArticle = React.memo(({ id, name, paragraphs, authorInfo, links }) => {
 
   const [isPlay, setPlay] = useState(false)
 
@@ -15,7 +15,7 @@ const ProjectArticle = React.memo(({ name, paragraphs, authorInfo, links }) => {
         {
           !isPlay &&
           <>
-            <img className='project-article__video-cover' src={require('../images/video-preview.png')} alt='Видео' />
+            <img className='project-article__video-cover' src={require(`../images/plays/${id}/video-preview.png`)} alt='Видео' />
             <button className='project-article__video-button' onClick={handleVideoPlay} type='button' name='play-video'></button>
           </>
         }
@@ -38,13 +38,7 @@ const ProjectArticle = React.memo(({ name, paragraphs, authorInfo, links }) => {
             >
               Смотреть читку
             </a>
-            <a
-              className='project-card__download link link_type_filling'
-              href='./lib/s-uchilisha-ivanov.pdf'
-              download
-            >
-              Скачать пьесу
-            </a>
+            <a className='project-card__download link link_type_filling' href={`./lib/plays/${id}/s-uchilisha-ivanov.pdf`} download>Скачать пьесу</a>
           </div>
         </div>
         <p className='project-card__author-name'>{authorInfo.author}</p>

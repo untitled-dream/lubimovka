@@ -15,7 +15,7 @@ function ImagePopup({ isOpen, photoIndex, onClose }) {
     swiperRef.current.swiper.slideTo(photoIndex, false);
   }, [photoIndex])
   
-  const { photoGallery } = useContext(PlayContext);
+  const { id, photoGallery } = useContext(PlayContext);
 
   return (
     <div className={isOpen ? 'popup popup_opened' : 'popup'} id="photo-gallery-view">
@@ -36,7 +36,7 @@ function ImagePopup({ isOpen, photoIndex, onClose }) {
           photoGallery.map((item, i) => (
             <SwiperSlide key={i} className='popup__image-container'>
               {
-                <img className="popup__gallery-image" src={require(`../images/gallery/${item}`)} alt="Описание" />
+                <img className="popup__gallery-image" src={require(`../images/plays/${id}/gallery/${item}`)} alt="Описание" />
               }
             </SwiperSlide>
           ))

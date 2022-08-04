@@ -7,17 +7,20 @@ import { PlayContext } from '../context/PlayContext';
 
 function Review() {
 
-  const { reviews } = React.useContext(PlayContext);
+  const { id, reviews } = React.useContext(PlayContext);
 
   return (
     <>
       {
         reviews.media.length &&
-        <MediaReview reviews={reviews.media}/>
+        <MediaReview
+          id={id}
+          reviews={reviews.media}
+        />
       }
       {
         reviews.people.length &&
-        <ViewerReview reviews={reviews.people}/>
+        <ViewerReview reviews={reviews.people} />
       }
     </>
   )
