@@ -39,15 +39,13 @@ function ViewerReview({ reviews }) {
           grabCursor={true}
           rewind={true}
         >
-          {reviews.map((item, i) => (
+          {reviews.map(({ text, author }, i) => (
             <SwiperSlide key={i}>
               {() => (
                 <div className='slider__item slider__item_active'>
                   <article className='review review_size_small'>
-                    <p className='review__text'>{item.text}</p>
-                    <p className='review__text' href={item.readMoreLink}>
-                      {item.author}
-                    </p>
+                    <p className='review__text'>{text}</p>
+                    <p className='review__text'>{author}</p>
                   </article>
                 </div>
               )}

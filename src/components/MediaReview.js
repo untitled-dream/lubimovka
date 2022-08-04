@@ -38,29 +38,22 @@ function MediaReview({ reviews }) {
           grabCursor={true}
           rewind={true}
         >
-          {reviews.map((item, i) => (
+          {reviews.map(({logo, title, text, readMoreLink}, i) => (
             <SwiperSlide key={i}>
               {({ isActive }) => (
-                <div
-                  className={
-                    isActive
-                      ? 'slider__item slider__item_active'
-                      : 'slider__item'
-                  }
-                >
+                <div className={isActive ? 'slider__item slider__item_active' : 'slider__item'}>
                   <article className='review review_size_big'>
                     <img
                       className='review__media-logo'
-                      src={require(`../images/${item.logo}`)}
-                      alt={item.title}
+                      src={require(`../images/${logo}`)}
+                      alt={title}
                     />
-                    <p className='review__text review__text_media'>{item.text}</p>
-                    <a
-                      href={item.readMoreLink}
-                      className='review__link-block link link_type_filling'
-                    >
-                      Читать полностью
-                    </a>
+                    <p className='review__text review__text_media'>{text}</p>
+                    {
+                      readMoreLink &&
+                      <a className='review__link-block link link_type_filling' href={readMoreLink}>Читать полностью</a>
+                    }
+
                   </article>
                 </div>
               )}

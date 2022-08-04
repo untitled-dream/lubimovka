@@ -15,7 +15,6 @@ function Review() {
         reviews.media.length &&
         <MediaReview reviews={reviews.media}/>
       }
-
       {
         reviews.people.length &&
         <ViewerReview reviews={reviews.people}/>

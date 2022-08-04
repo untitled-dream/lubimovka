@@ -1,7 +1,7 @@
 .project-article__video-cover {
     width: 100%;
     height: fit-content;
-
     position: absolute;
     z-index: 1;
+    transition: all 1s;
 }

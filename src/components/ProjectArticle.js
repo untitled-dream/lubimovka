@@ -1,34 +1,25 @@
 import React, { useState } from 'react';
+import Video from './Video';
 
 const ProjectArticle = React.memo(({ name, paragraphs, authorInfo, links }) => {
 
-  const [isCover, setCover] = useState(true)
+  const [isPlay, setPlay] = useState(false)
   
   const handleVideoPlay = () => {
-    setCover(false);
+    setPlay(true);
   }
 
   return (
     <div className='project-article'>
       <div className='project-article__video-container'>
         {
-          isCover &&
+          !isPlay &&
           <>
             <img className='project-article__video-cover' src={require('../images/video-preview.png')} alt='Видео' />
             <button className='project-article__video-button' onClick={handleVideoPlay} type='button' name='play-video'></button>
           </>
         }
-        {
-          !isCover &&
-          <iframe
-            className='project-article__video'
-            src={links.videoLink}
-            title='YouTube video player'
-            frameBorder={0}
-            allow='autoplay;'
-            allowFullScreen
-          />
-        }
+        <Video url={links.videoLink} isPlay={isPlay} />
       </div>
       <div className='project-article__text-block'>
         {paragraphs.map((paragraph, ind) => <p key={ind} className='project-article__text'>{paragraph}</p>)}
