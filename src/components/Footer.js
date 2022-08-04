@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Footer() {
+const Footer = () => {
 
   const logo = 'logo-text.svg';
   const developerStudioLogo = 'icon-developer-studio-logo.svg';
@@ -89,4 +89,4 @@ function Footer() {
   )
 }
 
-export default Footer
+export default Footer;

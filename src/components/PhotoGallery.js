@@ -19,7 +19,7 @@ function PhotoGallery({ onPhotoClick }) {
             <li className="gallery__item" key={i} onClick={() => handlePhotoClick(i)}>
               <img
                 className="gallery__image"
-                src={require(`../images/${item}`)}
+                src={require(`../images/gallery/preview/${item}`)}
                 alt="С_училища"
               />
             </li>

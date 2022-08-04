@@ -1,4 +1,4 @@
 .header__logo-link {
-    align-self: center;
-    padding-left: 30px;
+  line-height: 0;
+  padding: 10px 0 10px 30px;
 }

@@ -1,17 +1,14 @@
 .project-article__video-container {
   margin-bottom: 66px;
-  height: 27vw;
   width: 100%;
   position: relative;
-  max-height: 389px;
-  min-height: 206px;
+
+  aspect-ratio: calc(691 / 389);
 }
 
 @media (max-width: 860px) {
   .project-article__video-container {
-    height: 48vw;
-    left: calc(-50vw + 50%);
+    margin-top: 24px;
     margin-bottom: 32px;
-    width: 100vw;
   }
 }

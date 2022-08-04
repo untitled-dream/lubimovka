@@ -16,10 +16,16 @@
 
 @import url(./blocks/list/list.css);
 
+@import url(./blocks/menu/menu.css);
+@import url(./blocks/menu/_showed/menu_showed.css);
+@import url(./blocks/menu/__popup/menu__popup.css);
+@import url(./blocks/menu/__popup-overlay/menu__popup-overlay.css);
+
 @import url(./blocks/header/header.css);
 @import url(./blocks/header/__logo-link/header__logo-link.css);
 @import url(./blocks/header/__logo/header__logo.css);
 @import url(./blocks/header/__menu-list/header__menu-list.css);
+@import url(./blocks/header/__menu-list/_type_column/header__menu-list_type_column.css);
 @import url(./blocks/header/__sections-menu/header__sections-menu.css);
 @import url(./blocks/header/__social-menu/header__social-menu.css);
 @import url(./blocks/header/__link/header__link.css);
@@ -89,6 +95,7 @@
 @import url(./blocks/project-article/__text-block/project-article__text-block.css);
 @import url(./blocks/project-article/__text/project-article__text.css);
 @import url(./blocks/project-article/__video-container/project-article__video-container.css);
+@import url(./blocks/project-article/__video-button/project-article__video-button.css);
 @import url(./blocks/project-article/__video/project-article__video.css);
 @import url(./blocks/project-article/__video-cover/project-article__video-cover.css);
 

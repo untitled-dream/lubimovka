@@ -1,8 +1,13 @@
 .header__social-menu {
-    border-color: var(--content-color);
-    border-left: 1px solid;
-    border-right: 1px solid;
-    display: flex;
-    justify-content: space-between;
-    padding: 10px 15px 20px 15px;
+  border-color: var(--content-color);
+  border-left: 1px solid;
+  border-right: 1px solid;
+  padding: 10px 15px 20px 15px;
+  max-width: 257px;
+}
+
+@media screen and (max-width: 1357px) {
+  .header__social-menu {
+    border-right: none;
+  }
 }

@@ -36,15 +36,15 @@ function ImagePopup({ isOpen, photoIndex, onClose }) {
           photoGallery.map((item, i) => (
             <SwiperSlide key={i} className='popup__image-container'>
               {
-                <img className="popup__gallery-image" src={require(`../images/${item}`)} alt="Описание" />
+                <img className="popup__gallery-image" src={require(`../images/gallery/${item}`)} alt="Описание" />
               }
             </SwiperSlide>
           ))
         }
       </Swiper>
       <button className="popup__button-close button" onClick={onClose} type="button" title="Закрыть окно" />
-      <button className="popup__slider-button slider__button-prev button" type="button" title="Предыдущая фотография" />
-      <button className="popup__slider-button slider__button-next button" type="button" title="Следующая фотография" />
+      <button className="popup__slider-button slider__button-prev button" type="button" name='prev' title="Предыдущая фотография" />
+      <button className="popup__slider-button slider__button-next button" type="button" name='next' title="Следующая фотография" />
     </div>
   )
 }

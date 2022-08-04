@@ -1,4 +1,10 @@
 .header__menu-list {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
+}
+
+@media screen and (max-width:1357px) {
+  .header__menu-list {
+    justify-content: flex-start;
+  }
 }
