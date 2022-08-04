@@ -1,23 +1,36 @@
-import React from 'react';
+import React, { useState} from 'react';
 
-function ProjectArticle({ name, paragraphs, authorInfo, links }) {
+const ProjectArticle = React.memo(({ name, paragraphs, authorInfo, links }) => {
+
+  const [isCover, setCover] = useState(true)
+
+  const  handleVideoPlay = () => {
+    setCover(false);
+  }
+
   return (
     <div className='project-article'>
       <div className='project-article__video-container'>
-        <div className='project-article__video-cover' />
+        {
+          isCover &&
+          <>
+            <img className='project-article__video-cover' src={require('../images/video-preview.png')} alt='Видео'/>
+            <button className='project-article__video-button' onClick={handleVideoPlay} type='button' name='play-video'></button>
+          </>
+        }
         <iframe
           className='project-article__video'
-          src={`${links.videoLink}?enablejsapi=1`}
+          src={!isCover ? links.videoLink  : ''}
           title='YouTube video player'
           frameBorder={0}
-          allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture'
+          allow='autoplay;'
           allowFullScreen
         />
       </div>
       <div className='project-article__text-block'>
         {paragraphs.map((paragraph, ind) => <p key={ind} className='project-article__text'>{paragraph}</p>)}
       </div>
-      
+
       <div className='project-card'>
 
         <div className='project-card__content'>
@@ -46,6 +59,6 @@ function ProjectArticle({ name, paragraphs, authorInfo, links }) {
       </div>
     </div>
   );
-}
+})
 
 export default ProjectArticle;

@@ -1,0 +1,9 @@
+.slider__title-and-control-container_media {
+margin-bottom: 41px;
+}
+
+@media (max-width: 720px) {
+  .slider__title-and-control-container_media {
+    margin-bottom: 37px;
+  }
+}

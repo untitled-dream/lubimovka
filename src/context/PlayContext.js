@@ -52,7 +52,7 @@ export const playInfo = {
       ticketLink: '#',
       playTextLink: '#',
       readingLink: 'https://www.youtube.com/watch?v=qUkeNlgz36Y',
-      videoLink: 'https://www.youtube.com/embed/_GvtV2bfc7Q',
+      videoLink: 'https://www.youtube.com/embed/_GvtV2bfc7Q?autoplay=1',
     },
     reviews: {
       media: [
