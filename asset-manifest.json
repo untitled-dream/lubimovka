@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/lubimovka/static/css/main.47ffe324.css",
-    "main.js": "/lubimovka/static/js/main.6adc0a32.js",
+    "main.css": "/lubimovka/static/css/main.020871ae.css",
+    "main.js": "/lubimovka/static/js/main.2107e4ba.js",
     "static/media/partner-mosbrew.svg": "/lubimovka/static/media/partner-mosbrew.73e584d8161f97893913.svg",
     "static/media/s-uchilisha-photo-3.jpg": "/lubimovka/static/media/s-uchilisha-photo-3.cef1bc6eaf026ebbe6cd.jpg",
     "static/media/s-uchilisha-photo-7.jpg": "/lubimovka/static/media/s-uchilisha-photo-7.2a4c4c475b16d4db4941.jpg",
@@ -22,24 +22,24 @@
     "static/media/formular-light.woff2": "/lubimovka/static/media/formular-light.bb36dce4bf0739bcf8d0.woff2",
     "static/media/PPNeueMachina-Regular.woff2": "/lubimovka/static/media/PPNeueMachina-Regular.c304b32936ac5c9266e9.woff2",
     "static/media/s-uchilisha-photo-8.jpg": "/lubimovka/static/media/s-uchilisha-photo-8.61ca0eaa3cec6b8a40d6.jpg",
-    "static/media/logo-text.svg": "/lubimovka/static/media/logo-text.1db07cc260522daabafd.svg",
+    "static/media/lubimovka-text-logo.svg": "/lubimovka/static/media/lubimovka-text-logo.1db07cc260522daabafde800acac665b.svg",
     "static/media/partner-sbtg.svg": "/lubimovka/static/media/partner-sbtg.d8c5e9c9c23c4fded2e4.svg",
     "static/media/the-new-york-times-logo.svg": "/lubimovka/static/media/the-new-york-times-logo.28a1597778752b0c55df.svg",
-    "static/media/logo.svg": "/lubimovka/static/media/logo.145146e60850c07d0f4f312308956f4e.svg",
+    "static/media/lubimovka-logo.svg": "/lubimovka/static/media/lubimovka-logo.145146e60850c07d0f4f312308956f4e.svg",
     "static/media/favicon.svg": "/lubimovka/static/media/favicon.7a5f7bec0c97a96562e8.svg",
     "static/media/icon-arrow-right.svg": "/lubimovka/static/media/icon-arrow-right.8a602d99f729ed8805ed.svg",
     "static/media/icon-play.svg": "/lubimovka/static/media/icon-play.dd7bea6b07440b80ac34.svg",
     "index.html": "/lubimovka/index.html",
-    "static/media/icon-developer-studio-logo.svg": "/lubimovka/static/media/icon-developer-studio-logo.ac40074b9667fccc8233.svg",
+    "static/media/developer-studio-logo.svg": "/lubimovka/static/media/developer-studio-logo.ac40074b9667fccc8233adb8b2d7ae23.svg",
     "static/media/icon-arrow-45.svg": "/lubimovka/static/media/icon-arrow-45.7fdb47433f908d38ee74.svg",
     "static/media/icon-burger-menu.svg": "/lubimovka/static/media/icon-burger-menu.0270e661a3e683f908f7.svg",
     "static/media/icon-close.svg": "/lubimovka/static/media/icon-close.3ccc432d8e2371ea640a.svg",
     "static/media/icon-plus.svg": "/lubimovka/static/media/icon-plus.6f0ef854b17e8c21f14a.svg",
-    "main.47ffe324.css.map": "/lubimovka/static/css/main.47ffe324.css.map",
-    "main.6adc0a32.js.map": "/lubimovka/static/js/main.6adc0a32.js.map"
+    "main.020871ae.css.map": "/lubimovka/static/css/main.020871ae.css.map",
+    "main.2107e4ba.js.map": "/lubimovka/static/js/main.2107e4ba.js.map"
   },
   "entrypoints": [
-    "static/css/main.47ffe324.css",
-    "static/js/main.6adc0a32.js"
+    "static/css/main.020871ae.css",
+    "static/js/main.2107e4ba.js"
   ]
 }
