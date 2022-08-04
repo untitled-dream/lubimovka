@@ -6,14 +6,14 @@
   gap: 15px;
   list-style: none;
   position: absolute;
-  top: -65px;
+  top: 16px;
   right: 150px;
   z-index: 2;
 }
 
 @media (max-width: 735px) {
   .slider__pagination {
-    top: 28px;
+    top: 120px;
     left: 28px;
   }
 }

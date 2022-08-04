@@ -3,7 +3,7 @@
   font-family: 'Formular', Arial, sans-serif;
   justify-content: space-between;
   gap: 8px;
-  bottom: 72px;
+  top: -18px;
   left: 221px;
   position: absolute;
 
@@ -12,12 +12,6 @@
 @media screen and (max-width: 720px) {
   .share__social-list {
     left: 22px;
-    bottom: 40px;
-  }
-}
-
-@media screen and (max-width: 497px) {
-  .share__social-list {
-    bottom: 80px;
+    top: 43px;
   }
 }

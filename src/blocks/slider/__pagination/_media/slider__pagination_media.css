@@ -1,0 +1,5 @@
+@media (max-width: 735px) {
+  .slider__pagination_media {
+    top: 101px;
+  }
+}

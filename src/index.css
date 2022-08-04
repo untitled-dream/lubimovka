@@ -41,7 +41,6 @@
 
 @import url(./blocks/reviews/reviews.css);
 @import url(./blocks/reviews/_type_overflow/reviews_type_overflow.css);
-@import url(./blocks/reviews/__titile/reviews__title.css);
 
 @import url(./blocks/review/review.css);
 @import url(./blocks/review/_size_big/review_size_big.css);
@@ -49,12 +48,18 @@
 @import url(./blocks/review/__link-block/review__link-block.css);
 @import url(./blocks/review/__media-logo/review__media-logo.css);
 @import url(./blocks/review/__text/review__text.css);
+@import url(./blocks/review/__text/_media/review__text_media.css);
 
 @import url(./blocks/slider/slider.css);
+@import url(./blocks/slider/_media/slider_media.css);
+@import url(./blocks/slider/__title-and-control-container/slider__title-and-control-container.css);
+@import url(./blocks/slider/__title-and-control-container/_media/slider__title-and-control-container_media.css);
+@import url(./blocks/slider/__titile/slider__title.css);
 @import url(./blocks/slider/__control/slider__control.css);
 @import url(./blocks/slider/__button-container/slider__button-container.css);
 @import url(./blocks/slider/__button/slider__button.css);
 @import url(./blocks/slider/__pagination/slider__pagination.css);
+@import url(./blocks/slider/__pagination/_media/slider__pagination_media.css);
 @import url(./blocks/slider/__dot/slider__dot.css);
 @import url(./blocks/slider/__dot/_active/slider__dot_active.css);
 @import url(./blocks/slider/__container/slider__container.css);
