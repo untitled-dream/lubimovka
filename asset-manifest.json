@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/lubimovka/static/css/main.020871ae.css",
-    "main.js": "/lubimovka/static/js/main.2107e4ba.js",
+    "main.js": "/lubimovka/static/js/main.27ecaa26.js",
     "static/media/partner-mosbrew.svg": "/lubimovka/static/media/partner-mosbrew.73e584d8161f97893913.svg",
     "static/media/s-uchilisha-photo-3.jpg": "/lubimovka/static/media/s-uchilisha-photo-3.cef1bc6eaf026ebbe6cd.jpg",
     "static/media/s-uchilisha-photo-7.jpg": "/lubimovka/static/media/s-uchilisha-photo-7.2a4c4c475b16d4db4941.jpg",
@@ -26,7 +26,6 @@
     "static/media/partner-sbtg.svg": "/lubimovka/static/media/partner-sbtg.d8c5e9c9c23c4fded2e4.svg",
     "static/media/the-new-york-times-logo.svg": "/lubimovka/static/media/the-new-york-times-logo.28a1597778752b0c55df.svg",
     "static/media/lubimovka-logo.svg": "/lubimovka/static/media/lubimovka-logo.145146e60850c07d0f4f312308956f4e.svg",
-    "static/media/favicon.svg": "/lubimovka/static/media/favicon.7a5f7bec0c97a96562e8.svg",
     "static/media/icon-arrow-right.svg": "/lubimovka/static/media/icon-arrow-right.8a602d99f729ed8805ed.svg",
     "static/media/icon-play.svg": "/lubimovka/static/media/icon-play.dd7bea6b07440b80ac34.svg",
     "index.html": "/lubimovka/index.html",
@@ -36,10 +35,10 @@
     "static/media/icon-close.svg": "/lubimovka/static/media/icon-close.3ccc432d8e2371ea640a.svg",
     "static/media/icon-plus.svg": "/lubimovka/static/media/icon-plus.6f0ef854b17e8c21f14a.svg",
     "main.020871ae.css.map": "/lubimovka/static/css/main.020871ae.css.map",
-    "main.2107e4ba.js.map": "/lubimovka/static/js/main.2107e4ba.js.map"
+    "main.27ecaa26.js.map": "/lubimovka/static/js/main.27ecaa26.js.map"
   },
   "entrypoints": [
     "static/css/main.020871ae.css",
-    "static/js/main.2107e4ba.js"
+    "static/js/main.27ecaa26.js"
   ]
 }
