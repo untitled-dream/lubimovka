@@ -1,25 +1,32 @@
-import React from 'react';
+import React, { useState } from 'react';
+import Video from './Video';
 
-function ProjectArticle({ name, paragraphs, authorInfo, links }) {
+const ProjectArticle = React.memo(({ id, name, paragraphs, authorInfo, links }) => {
+
+  const [isPlay, setPlay] = useState(false)
+
+  const handleVideoPlay = () => {
+    setPlay(true);
+  }
+
   return (
     <div className='project-article'>
       <div className='project-article__video-container'>
-        <div className='project-article__video-cover' />
-        <iframe
-          className='project-article__video'
-          src={`${links.videoLink}?enablejsapi=1`}
-          title='YouTube video player'
-          frameBorder={0}
-          allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture'
-          allowFullScreen
-        />
+        {
+          !isPlay &&
+          <>
+            <img className='project-article__video-cover' src={require(`../images/plays/${id}/video-preview.png`)} alt='Видео' />
+            <button className='project-article__video-button' onClick={handleVideoPlay} type='button' name='play-video'></button>
+          </>
+        }
+        <Video url={links.videoLink} isPlay={isPlay} />
       </div>
       <div className='project-article__text-block'>
-        {paragraphs.map((paragraph, ind) => <p key={ind} className='project-article__text'>{paragraph}</p>)}
+        {
+          paragraphs.map((paragraph, ind) => <p key={ind} className='project-article__text'>{paragraph}</p>)
+        }
       </div>
-      
       <div className='project-card'>
-
         <div className='project-card__content'>
           <p className='project-card__name'>{name}</p>
           <div className='project-card__container'>
@@ -31,13 +38,7 @@ function ProjectArticle({ name, paragraphs, authorInfo, links }) {
             >
               Смотреть читку
             </a>
-            <a
-              className='project-card__download link link_type_filling'
-              href='./lib/s-uchilisha-ivanov.pdf'
-              download
-            >
-              Скачать пьесу
-            </a>
+            <a className='project-card__download link link_type_filling' href={`/lib/plays/s-uchilisha/s-uchilisha-ivanov.pdf`} download>Скачать пьесу</a>
           </div>
         </div>
         <p className='project-card__author-name'>{authorInfo.author}</p>
@@ -46,6 +47,6 @@ function ProjectArticle({ name, paragraphs, authorInfo, links }) {
       </div>
     </div>
   );
-}
+})
 
 export default ProjectArticle;

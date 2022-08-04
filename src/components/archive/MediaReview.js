@@ -38,27 +38,28 @@ function MediaReview({ id, reviews }) {
           grabCursor={true}
           rewind={true}
         >
-          {reviews.map(({logo, title, text, readMoreLink}, i) => (
-            <SwiperSlide key={i}>
-              {({ isActive }) => (
-                <div className={isActive ? 'slider__item slider__item_active' : 'slider__item'}>
-                  <article className='review review_size_big'>
-                    <img
-                      className='review__media-logo'
-                      src={require(`../images/plays/${id}/reviews/${logo}`)}
-                      alt={title}
-                    />
-                    <p className='review__text review__text_media'>{text}</p>
-                    {
-                      readMoreLink &&
-                      <a className='review__link-block link link_type_filling' href={readMoreLink}>Читать полностью</a>
-                    }
-
-                  </article>
-                </div>
-              )}
-            </SwiperSlide>
-          ))}
+          {
+            reviews.map(({ logo, title, text, readMoreLink }, i) => (
+              <SwiperSlide key={i}>
+                {({ isActive }) => (
+                  <div className={isActive ? 'slider__item slider__item_active' : 'slider__item'}>
+                    <article className='review review_size_big'>
+                      <img
+                        className='review__media-logo'
+                        src={require(`../images/plays/${id}/reviews/${logo}`)}
+                        alt={title}
+                      />
+                      <p className='review__text review__text_media'>{text}</p>
+                      {
+                        readMoreLink &&
+                        <a className='review__link-block link link_type_filling' href={readMoreLink}>Читать полностью</a>
+                      }
+                    </article>
+                  </div>
+                )}
+              </SwiperSlide>
+            ))
+          }
         </Swiper>
       </div>
     </section>

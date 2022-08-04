@@ -1,16 +1,16 @@
 import React from 'react';
 
-function ProjectAnnotation({cover, annotation}) {
+const ProjectAnnotation = React.memo(({id, cover, annotation}) => {
   return (
     <div className='project-annotation'>
       <img
-        src={require(`../images/${cover}`)}
+        src={require(`../images/plays/${id}/${cover}`)}
         alt='Сцена из спектакля С_училища'
         className='project-annotation__img'
       />
       <p className='project-annotation__text'>{annotation}</p>
     </div>
   );
-}
+})
 
 export default ProjectAnnotation;

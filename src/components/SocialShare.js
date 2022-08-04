@@ -1,13 +1,15 @@
 import React from 'react'
+
 import { PlayContext } from '../context/PlayContext';
 
 function SocialShare() {
 
-  const {description} = React.useContext(PlayContext);
-  
+  const {id, description} = React.useContext(PlayContext);
+  const location = window.location.href
+
   return (
     <section className="share">
-      <img className="share__banner" src={require(`../images/${description.image.banner}`)} alt='Пьеса С_училища. Баннер' />
+      <img className="share__banner" src={require(`../images/plays/${id}/${description.image.banner}`)} alt='Пьеса С_училища. Баннер' />
       <div className="share__wrapper">
         <h2 className="share__heading">
           <span>Рассказать</span>
@@ -15,7 +17,7 @@ function SocialShare() {
         </h2>
         <div className="share__social-list">
           <a className="share__social-link link link_type_filling" href="#" target='_blank' rel="noopener noreferrer">fb</a>
-          <a className="share__social-link link link_type_filling" href="#" target='_blank' rel="noopener noreferrer">vk</a>
+          <a className="share__social-link link link_type_filling" href={`https://vk.com/share.php?url=${location}`} target='_blank' rel="noopener noreferrer">vk</a>
           <a className="share__social-link link link_type_filling" href="#" target='_blank' rel="noopener noreferrer">twtr</a>
         </div>
       </div>

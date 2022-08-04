@@ -11,7 +11,6 @@ import ImagePopup from './ImagePopup';
 
 function Main() {
 
-
   const [isViewImagePopupOpen, setViewImagePopupOpen] = useState(false);
   const [selectedPhotoIndex, setSelectedPhoto] = useState();
 

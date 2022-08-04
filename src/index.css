@@ -14,6 +14,7 @@
 @import url(./blocks/button/button.css);
 @import url(./blocks/circular-filling/circular-filling.css);
 
+@import url(./blocks/video/video.css);
 @import url(./blocks/list/list.css);
 
 @import url(./blocks/menu/menu.css);
@@ -95,7 +96,7 @@
 @import url(./blocks/project-article/__text-block/project-article__text-block.css);
 @import url(./blocks/project-article/__text/project-article__text.css);
 @import url(./blocks/project-article/__video-container/project-article__video-container.css);
-@import url(./blocks/project-article/__video/project-article__video.css);
+@import url(./blocks/project-article/__video-button/project-article__video-button.css);
 @import url(./blocks/project-article/__video-cover/project-article__video-cover.css);
 
 @import url(./blocks/project-card/project-card.css);
