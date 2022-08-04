@@ -1,10 +1,10 @@
-import React, { useState} from 'react';
+import React, { useState } from 'react';
 
 const ProjectArticle = React.memo(({ name, paragraphs, authorInfo, links }) => {
 
   const [isCover, setCover] = useState(true)
-
-  const  handleVideoPlay = () => {
+  
+  const handleVideoPlay = () => {
     setCover(false);
   }
 
@@ -14,18 +14,21 @@ const ProjectArticle = React.memo(({ name, paragraphs, authorInfo, links }) => {
         {
           isCover &&
           <>
-            <img className='project-article__video-cover' src={require('../images/video-preview.png')} alt='Видео'/>
+            <img className='project-article__video-cover' src={require('../images/video-preview.png')} alt='Видео' />
             <button className='project-article__video-button' onClick={handleVideoPlay} type='button' name='play-video'></button>
           </>
         }
-        <iframe
-          className='project-article__video'
-          src={!isCover ? links.videoLink  : ''}
-          title='YouTube video player'
-          frameBorder={0}
-          allow='autoplay;'
-          allowFullScreen
-        />
+        {
+          !isCover &&
+          <iframe
+            className='project-article__video'
+            src={links.videoLink}
+            title='YouTube video player'
+            frameBorder={0}
+            allow='autoplay;'
+            allowFullScreen
+          />
+        }
       </div>
       <div className='project-article__text-block'>
         {paragraphs.map((paragraph, ind) => <p key={ind} className='project-article__text'>{paragraph}</p>)}
