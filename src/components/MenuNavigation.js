@@ -1,8 +1,8 @@
 import React from 'react'
 
-const MenuNavigation = React.memo(({ state }) => {
+const MenuNavigation = React.memo(({ typeColumn }) => {
   return (
-    <ul className={state ? 'header__menu-list header__menu-list_type_column list' : 'header__menu-list list'}>
+    <ul className={typeColumn ? 'header__menu-list header__menu-list_type_column list' : 'header__menu-list list'}>
       <li><a className="header__link link" href="#">Афиша</a></li>
       <li><a className="header__link link" href="#">Библиотека</a></li>
       <li><a className="header__link link" href="#">Проекты</a></li>
