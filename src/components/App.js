@@ -2,12 +2,9 @@ import { useEffect, useState } from "react";
 
 import useWindowDimensions from '../hooks/useWindowDimensions';
 
-import Menu from "./Menu";
-import MenuNavigation from './MenuNavigation'
-import MenuSocial from './MenuSocial'
-import MenuDonation from "./MenuDonation";
-
 import Header from "./Header";
+import Menu from "./Menu";
+
 import Main from "./Main";
 import Footer from "./Footer";
 
@@ -34,21 +31,13 @@ function App() {
 
   return (
     <>
-      <Header
-        currentWindowWidth={width}
-        menuNavigation={<MenuNavigation />}
-        menuSocial={<MenuSocial />}
-        menuDonation={<MenuDonation />}
-      />
+      <Header currentWindowWidth={width}/>
 
       <Menu
         isMenuState={isMenuState}
         onShow={onMenuShow}
         onToggleState={handleModalClick}
         currentWindowWidth={width}
-        menuNavigation={<MenuNavigation />}
-        menuSocial={<MenuSocial />}
-        menuDonation={<MenuDonation />}
       />
       <Main />
       <Footer />
@@ -58,10 +47,3 @@ function App() {
 }
 
 export default App;
-
-/* 
-
-menuSocial={<MenuSocial />}
-menuDonation={<MenuDonation />}
-
-*/
