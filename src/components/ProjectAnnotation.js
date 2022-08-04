@@ -1,6 +1,6 @@
 import React from 'react';
 
-function ProjectAnnotation({cover, annotation}) {
+const ProjectAnnotation = React.memo(({cover, annotation}) => {
   return (
     <div className='project-annotation'>
       <img
@@ -11,6 +11,6 @@ function ProjectAnnotation({cover, annotation}) {
       <p className='project-annotation__text'>{annotation}</p>
     </div>
   );
-}
+})
 
 export default ProjectAnnotation;

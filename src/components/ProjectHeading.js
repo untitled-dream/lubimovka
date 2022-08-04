@@ -1,6 +1,6 @@
 import React from 'react';
 
-function ProjectHeading({ playInfo, ticketLink }) {
+const ProjectHeading = React.memo(({ playInfo, ticketLink }) => {
   return (
     <div className='project-heading'>
       <h1 className='project-heading__title'>{playInfo.name}</h1>
@@ -11,6 +11,6 @@ function ProjectHeading({ playInfo, ticketLink }) {
       </div>}
     </div>
   );
-}
+})
 
 export default ProjectHeading;

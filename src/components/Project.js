@@ -7,7 +7,7 @@ import ProjectAnnotation from './ProjectAnnotation';
 import ProjectProperties from './ProjectProperties';
 import ProjectArticle from './ProjectArticle';
 
-function Project() {
+const Project = () => {
   
   const { description, links, properties, ...props } = React.useContext(PlayContext);
 

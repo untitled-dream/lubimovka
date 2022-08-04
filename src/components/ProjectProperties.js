@@ -1,6 +1,6 @@
 import React from 'react';
 
-function ProjectProperties({ properties }) {
+const ProjectProperties = React.memo(({ properties }) => {
   const hours = Math.floor(properties.duration / 60);
   const minutes = properties.duration % 60;
 
@@ -41,6 +41,6 @@ function ProjectProperties({ properties }) {
       </ul>
     </div>
   );
-}
+})
 
 export default ProjectProperties;

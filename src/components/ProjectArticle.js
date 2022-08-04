@@ -33,9 +33,7 @@ const ProjectArticle = React.memo(({ name, paragraphs, authorInfo, links }) => {
       <div className='project-article__text-block'>
         {paragraphs.map((paragraph, ind) => <p key={ind} className='project-article__text'>{paragraph}</p>)}
       </div>
-
       <div className='project-card'>
-
         <div className='project-card__content'>
           <p className='project-card__name'>{name}</p>
           <div className='project-card__container'>
