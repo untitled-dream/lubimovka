@@ -4,7 +4,7 @@ import Video from './Video';
 const ProjectArticle = React.memo(({ name, paragraphs, authorInfo, links }) => {
 
   const [isPlay, setPlay] = useState(false)
-  
+
   const handleVideoPlay = () => {
     setPlay(true);
   }
@@ -22,7 +22,9 @@ const ProjectArticle = React.memo(({ name, paragraphs, authorInfo, links }) => {
         <Video url={links.videoLink} isPlay={isPlay} />
       </div>
       <div className='project-article__text-block'>
-        {paragraphs.map((paragraph, ind) => <p key={ind} className='project-article__text'>{paragraph}</p>)}
+        {
+          paragraphs.map((paragraph, ind) => <p key={ind} className='project-article__text'>{paragraph}</p>)
+        }
       </div>
       <div className='project-card'>
         <div className='project-card__content'>

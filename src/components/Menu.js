@@ -10,7 +10,7 @@ const Menu = ({ isMenuState, onShow,  menuNavigation, menuSocial, menuDonation, 
 
   return (
     <>
-      <button className={onShow ? 'menu menu_showed' : 'menu'} type='button' onClick={() => onToggleState()} id='menu'></button>
+      <button className={onShow ? 'menu menu_showed' : 'menu'} type='button' onClick={() => onToggleState()} id='menu' name='menu'></button>
       <Modal
         isOpen={isMenuState && onShow}
         className="menu__popup"
