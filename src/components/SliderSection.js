@@ -8,7 +8,7 @@ import 'swiper/css/pagination';
 
 function MediaReview({ reviews, modifier, title, swiperClass, slidesPerView, slideMapFunction }) {
   return (
-    <section className={`reviews ${'reviews' + modifier}`}>
+    <section className={`reviews ${'reviews_' + modifier}`}>
       <div className={`slider ${'slider_' + modifier}`}>
         <div className={`slider__title-and-control-container ${'slider__title-and-control-container_' + modifier}`}>
           <h2 className='slider__title'>{title}</h2>
