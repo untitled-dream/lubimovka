@@ -39,7 +39,9 @@ function MediaReview({ reviews, modifier, title, swiperClass, slidesPerView, sli
           grabCursor={true}
           rewind={true}
         >
-          {reviews.map(slideMapFunction)}
+          {
+            reviews.map(slideMapFunction)
+          }
         </Swiper>
       </div>
     </section>

@@ -15,7 +15,7 @@ function Review() {
           <article className='review review_size_big'>
             <img
               className='review__media-logo'
-              src={require(`../images/${item.logo}`)}
+              src={require(`../images/plays/${id}/reviews/${item.logo}`)}
               alt={item.title}
             />
             <p className='review__text review__text_media'>{item.text}</p>
