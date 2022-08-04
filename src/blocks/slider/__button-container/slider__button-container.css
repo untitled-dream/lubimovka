@@ -3,13 +3,13 @@
   gap: 20px;
   align-items: center;
   position: absolute;
-  top: -85px;
+  top: -5px;
   right: 0;
 }
 
 @media (max-width: 735px) {
   .slider__button-container {
-    top: -78px;
-    right: 28px;
+    top: -1px;
+    right: 26px;
   }
 }
