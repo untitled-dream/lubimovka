@@ -1,7 +1,12 @@
 import React from 'react'
+
+import MenuNavigation from './MenuNavigation'
+import MenuSocial from './MenuSocial'
+import MenuDonation from "./MenuDonation";
+
 import logo from '../images/logo/lubimovka-logo.svg'
 
-const Header = ({ currentWindowWidth, menuNavigation, menuSocial, menuDonation }) => {
+const Header = ({ currentWindowWidth }) => {
   return (
     <header className="header">
       <a className="header__logo-link" href="#">
@@ -11,19 +16,19 @@ const Header = ({ currentWindowWidth, menuNavigation, menuSocial, menuDonation }
       {
         currentWindowWidth >= 936 &&
         <nav className="header__sections-menu">
-          {menuNavigation}
+          <MenuNavigation/>
         </nav>
       }
       {
         currentWindowWidth > 1230 &&
         <nav className="header__social-menu">
-          {menuSocial}
+          <MenuSocial/>
         </nav>
       }
       {
         currentWindowWidth > 1357 &&
         <div className="header__donation">
-          {menuDonation}
+          <MenuDonation/>
         </div>
       }
     </header>
