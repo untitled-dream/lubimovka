@@ -38,7 +38,7 @@ const ProjectArticle = React.memo(({ id, name, paragraphs, authorInfo, links }) 
             >
               Смотреть читку
             </a>
-            <a className='project-card__download link link_type_filling' href={`./lib/plays/${id}/s-uchilisha-ivanov.pdf`} download>Скачать пьесу</a>
+            <a className='project-card__download link link_type_filling' href={`/lib/plays/s-uchilisha/s-uchilisha-ivanov.pdf`} download>Скачать пьесу</a>
           </div>
         </div>
         <p className='project-card__author-name'>{authorInfo.author}</p>
