@@ -36,7 +36,7 @@ function ImagePopup({ isOpen, photoIndex, onClose }) {
           photoGallery.map((item, i) => (
             <SwiperSlide key={i} className='popup__image-container'>
               {
-                <img className="popup__gallery-image" src={require(`../images/${item}`)} alt="Описание" />
+                <img className="popup__gallery-image" src={require(`../images/gallery/${item}`)} alt="Описание" />
               }
             </SwiperSlide>
           ))

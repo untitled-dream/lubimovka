@@ -17,6 +17,7 @@
 @import url(./blocks/list/list.css);
 
 @import url(./blocks/menu/menu.css);
+@import url(./blocks/menu/_showed/menu_showed.css);
 @import url(./blocks/menu/__popup/menu__popup.css);
 @import url(./blocks/menu/__popup-overlay/menu__popup-overlay.css);
 

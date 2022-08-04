@@ -3,19 +3,16 @@ import Modal from 'react-modal';
 
 Modal.setAppElement('#root');
 
-const Menu = ({ isMenuState, menuNavigation, menuSocial, menuDonation, onToggleState, currentWindowWidth }) => {
+const Menu = ({ isMenuState, onShow,  menuNavigation, menuSocial, menuDonation, onToggleState, currentWindowWidth }) => {
 
   const menuSocialClone = React.cloneElement(menuSocial, { state: isMenuState })
   const menuNavigationClone = React.cloneElement(menuNavigation, { state: isMenuState })
 
   return (
     <>
-      {currentWindowWidth < 1357 &&
-        <button className='menu' type='button' onClick={() => onToggleState()} id='menu'></button>
-      }
-
+      <button className={onShow ? 'menu menu_showed' : 'menu'} type='button' onClick={() => onToggleState()} id='menu'></button>
       <Modal
-        isOpen={isMenuState}
+        isOpen={isMenuState && onShow}
         className="menu__popup"
         overlayClassName="menu__popup-overlay"
         onRequestClose={onToggleState}
