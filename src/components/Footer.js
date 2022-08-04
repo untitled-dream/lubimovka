@@ -1,9 +1,9 @@
 import React from 'react'
 
-function Footer() {
+import logo from '../images/logo/lubimovka-text-logo.svg'
+import developerStudioLogo from '../images/logo/developer-studio-logo.svg';
 
-  const logo = 'logo-text.svg';
-  const developerStudioLogo = 'icon-developer-studio-logo.svg';
+const Footer = () => {
 
   const sbtgLogo = 'partner-sbtg.svg';
   const mosbrewLogo = 'partner-mosbrew.svg';
@@ -12,7 +12,7 @@ function Footer() {
 
   return (
     <footer className="footer" id="contacts">
-      <a className="footer__logo-link" href="#" target="_blank"><img className="footer__logo" src={require(`../images/${logo}`)} alt="Логотип фестиваля Любимовка" /></a>
+      <a className="footer__logo-link" href="#" target="_blank"><img className="footer__logo" src={logo} alt="Логотип фестиваля Любимовка" /></a>
       <address className="footer__address">
         <p className="footer__address-spot">Площадка&nbsp;«8/3»</p>
         <p className="footer__address-text">Москва, ул.&nbsp;Казакова,&nbsp;8, стр.&nbsp;3 Метро&nbsp;«Курская»</p>
@@ -53,33 +53,33 @@ function Footer() {
         <ul className="footer__partners-list list">
           <li className="footer__partners-list-item">
             <a href="https://www.prokhorovfund.ru" target="_blank" rel="noopener noreferrer">
-              <img className="footer__partners-logo" src={require(`../images/${prokhorovLogo}`)} alt="Логотип Фонда Михаила Прохорова" />
+              <img className="footer__partners-logo" src={require(`../images/partners/${prokhorovLogo}`)} alt="Логотип Фонда Михаила Прохорова" />
             </a>
             <p className="footer__partners-subheading">Генеральный партнёр</p>
           </li>
           <li className="footer__partners-list-item">
             <a href="https://mosbrew.ru" target="_blank" rel="noopener noreferrer">
-              <img className="footer__partners-logo" src={require(`../images/${mosbrewLogo}`)} alt="Логотип Московской пивоваренной компании" />
+              <img className="footer__partners-logo" src={require(`../images/partners/${mosbrewLogo}`)} alt="Логотип Московской пивоваренной компании" />
             </a>
           </li>
           <li className="footer__partners-list-item">
             <a href="https://sbtg.ru" target="_blank" rel="noopener noreferrer">
-              <img className="footer__partners-logo" src={require(`../images/${sbtgLogo}`)} alt="Логотип видеокомпании SBTG" />
+              <img className="footer__partners-logo" src={require(`../images/partners/${sbtgLogo}`)} alt="Логотип видеокомпании SBTG" />
             </a>
             <p className="footer__partners-subheading">Онлайн-трансляции</p>
           </li>
           <li className="footer__partners-list-item">
             <a href="https://vk.com/public211134323" target="_blank" rel="noopener noreferrer">
-              <img className="footer__partners-logo" src={require(`../images/${apogovoritLogo}`)} alt="Логотип подкаста А поговорить" />
+              <img className="footer__partners-logo" src={require(`../images/partners/${apogovoritLogo}`)} alt="Логотип подкаста А поговорить" />
             </a>
           </li>
         </ul>
       </nav>
       <div className='footer__copyright-wrapper'>
-        <p className="footer__copyright">©&nbsp;Любимовка,&nbsp;2021 <a href="#" className="link link_type_underline footer__privacy-policy" target="_blank">Политика&nbsp;конфиденциальности</a></p>
+        <p className="footer__copyright">©&nbsp;Любимовка,&nbsp;2021 <a href="#" className="link link_type_underline footer__privacy-policy" target="_blank" rel="noopener noreferrer">Политика&nbsp;конфиденциальности</a></p>
         <div className='footer__credits'>
           <div className="footer__credits-design">
-            <img className="footer__credits-design-logo" src={require(`../images/${developerStudioLogo}`)} alt="Логотип дизайн-студии" />
+            <img className="footer__credits-design-logo" src={developerStudioLogo} alt="Логотип дизайн-студии" />
             <p className="footer__credits-design-text">дизайн сайта — <a className="link link_type_underline" href="https://ru.shishki.co" target="_blank" rel="noopener noreferrer">shishki.collective</a></p>
           </div>
           <p className="footer__credits-web">вёрстка и разработка — студенты <a className="link link_type_underline" href="https://practicum.yandex.ru" target="_blank" rel="noopener noreferrer">Яндекс.Практикума</a></p>
@@ -89,4 +89,4 @@ function Footer() {
   )
 }
 
-export default Footer
+export default Footer;

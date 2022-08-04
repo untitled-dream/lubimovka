@@ -6,7 +6,7 @@ import { SwiperSlide } from 'swiper/react';
 import { PlayContext } from '../context/PlayContext';
 
 function Review() {
-  const { reviews } = React.useContext(PlayContext);
+  const { id, reviews } = React.useContext(PlayContext);
 
   const renderMediaSlides = (item, i) => (
     <SwiperSlide key={i}>
@@ -68,6 +68,7 @@ function Review() {
           slideMapFunction={renderPeopleSlides}
         />
       )}
+
     </>
   );
 }

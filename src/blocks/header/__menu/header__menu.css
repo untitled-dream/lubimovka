@@ -1,0 +1,19 @@
+.header__menu {
+  border: none;
+  background: var(--content-color) url(../../../images/icon-burger-menu.svg) no-repeat center;
+  background-size: 20px 12px;
+  cursor: pointer;
+  display: none;
+  width: 20px;
+  height: 13px;
+  padding: 28px;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+@media screen and (max-width: 1357px) {
+  .header__menu {
+    display: block;
+  }
+}

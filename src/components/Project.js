@@ -7,9 +7,9 @@ import ProjectAnnotation from './ProjectAnnotation';
 import ProjectProperties from './ProjectProperties';
 import ProjectArticle from './ProjectArticle';
 
-function Project() {
+const Project = () => {
   
-  const { description, links, properties, ...props } = React.useContext(PlayContext);
+  const { id, description, links, properties, ...props } = React.useContext(PlayContext);
 
   return (
     <section className='project'>
@@ -18,10 +18,12 @@ function Project() {
         ticketLink={links.ticketLink}
       />
       <ProjectAnnotation
+        id={id}
         annotation={description.annotation}
         cover={description.image.cover}/>
       <ProjectProperties properties={properties} />
       <ProjectArticle
+        id={id}
         name={description.name}
         paragraphs={props.article}
         authorInfo={props.authorInfo}

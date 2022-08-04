@@ -15,8 +15,8 @@ function ViewerReview({ reviews }) {
           <div className='slider__control'>
             <p className='slider__pagination' id='people'></p>
             <div className='slider__button-container'>
-              <button className='slider__button slider__button-prev-people button' />
-              <button className='slider__button slider__button-next-people button' />
+              <button className="slider__button slider__button-prev-people button" type='button' name='prev' title='Предыдущий слайд' />
+              <button className="slider__button slider__button-next-people button" type='button' name='next' title='Следующий слайд' />
             </div>
           </div>
         </div>
@@ -39,15 +39,13 @@ function ViewerReview({ reviews }) {
           grabCursor={true}
           rewind={true}
         >
-          {reviews.map((item, i) => (
+          {reviews.map(({ text, author }, i) => (
             <SwiperSlide key={i}>
               {() => (
                 <div className='slider__item slider__item_active'>
                   <article className='review review_size_small'>
-                    <p className='review__text'>{item.text}</p>
-                    <p className='review__text' href={item.readMoreLink}>
-                      {item.author}
-                    </p>
+                    <p className='review__text'>{text}</p>
+                    <p className='review__text'>{author}</p>
                   </article>
                 </div>
               )}

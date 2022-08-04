@@ -3,8 +3,8 @@ import { PlayContext } from '../context/PlayContext';
 
 function PhotoGallery({ onPhotoClick }) {
 
-  const { photoGallery } = useContext(PlayContext);
-
+  const { id, photoGallery } = useContext(PlayContext);
+  
   const handlePhotoClick = (i) => {
     onPhotoClick(i);
   }
@@ -19,7 +19,7 @@ function PhotoGallery({ onPhotoClick }) {
             <li className="gallery__item" key={i} onClick={() => handlePhotoClick(i)}>
               <img
                 className="gallery__image"
-                src={require(`../images/${item}`)}
+                src={require(`../images/plays/${id}/gallery/preview/${item}`)}
                 alt="С_училища"
               />
             </li>

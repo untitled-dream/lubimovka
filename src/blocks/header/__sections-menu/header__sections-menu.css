@@ -1,4 +1,10 @@
 .header__sections-menu {
-    padding: 10px 25px 20px 30px;
-    width: 100%;
+  padding: 10px 25px 20px 30px;
+  width: 100%;
+}
+
+@media screen and (max-width: 1357px) {
+  .header__sections-menu {
+    width: auto;
+  }
 }

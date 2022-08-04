@@ -1,12 +1,19 @@
 .gallery__grid {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(4, auto);
   gap: 1px;
 }
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 1230px) {
   .gallery__grid {
     gap: 2px;
-    grid-template-columns: repeat(2, 1fr);
-  }  
+    grid-template-columns: repeat(2, auto);
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .gallery__grid {
+    gap: 1px;
+    grid-template-columns: auto;
+  }
 }
