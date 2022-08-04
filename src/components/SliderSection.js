@@ -6,7 +6,7 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 
-function MediaReview({ reviews, modifier, title, slidesPerView, slideMapFunction }) {
+function MediaReview({ reviews, modifier, title, swiperClass, slidesPerView, slideMapFunction }) {
   return (
     <section className={`reviews ${'reviews' + modifier}`}>
       <div className={`slider ${'slider_' + modifier}`}>
@@ -21,7 +21,7 @@ function MediaReview({ reviews, modifier, title, slidesPerView, slideMapFunction
           </div>
         </div>
         <Swiper
-          className='slider__container-overflow'
+          className={swiperClass}
           modules={[Navigation, Pagination]}
           navigation={{
             prevEl: '.slider__button-prev-' + modifier,

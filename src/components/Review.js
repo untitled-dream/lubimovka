@@ -37,11 +37,11 @@ function Review() {
         <div className='slider__item slider__item_active'>
           <article className='review review_size_small'>
             <p className='review__text'>{item.text}</p>
-            <p className='review__text'>
+            <p className='review__text' href={item.readMoreLink}>
               {item.author}
             </p>
           </article>
-        </div>
+      </div>
       )}
     </SwiperSlide>
   );
@@ -53,6 +53,7 @@ function Review() {
           reviews={reviews.media}
           modifier='media'
           title='Рецензии'
+          swiperClass='slider__container-overflow'
           slidesPerView={1}
           slideMapFunction={renderMediaSlides}
         />
@@ -62,6 +63,7 @@ function Review() {
           reviews={reviews.people}
           modifier='people'
           title='Отзывы зрителей'
+          swiperClass='slider__container'
           slidesPerView={3}
           slideMapFunction={renderPeopleSlides}
         />
