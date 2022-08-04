@@ -1,12 +1,13 @@
 import React from 'react'
 import Modal from 'react-modal';
 
+import MenuNavigation from './MenuNavigation'
+import MenuSocial from './MenuSocial'
+import MenuDonation from "./MenuDonation";
+
 Modal.setAppElement('#root');
 
-const Menu = ({ isMenuState, onShow,  menuNavigation, menuSocial, menuDonation, onToggleState, currentWindowWidth }) => {
-
-  const menuSocialClone = React.cloneElement(menuSocial, { state: isMenuState })
-  const menuNavigationClone = React.cloneElement(menuNavigation, { state: isMenuState })
+const Menu = ({ isMenuState, onShow, onToggleState, currentWindowWidth }) => {
 
   return (
     <>
@@ -18,9 +19,18 @@ const Menu = ({ isMenuState, onShow,  menuNavigation, menuSocial, menuDonation, 
         onRequestClose={onToggleState}
         shouldCloseOnOverlayClick={true}
       >
-        {currentWindowWidth < 936   && menuNavigationClone}
-        {currentWindowWidth < 1230  && menuSocialClone}
-        {currentWindowWidth < 1357  && menuDonation}
+        {
+          currentWindowWidth < 936 &&
+          <MenuNavigation typeColumn={isMenuState} />
+        }
+        {
+          currentWindowWidth < 1230 &&
+          <MenuSocial typeColumn={isMenuState} />
+        }
+        {
+          currentWindowWidth < 1357 &&
+          <MenuDonation />
+        }
       </Modal>
     </>
   )
