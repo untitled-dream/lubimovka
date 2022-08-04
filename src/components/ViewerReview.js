@@ -15,8 +15,8 @@ function ViewerReview({ reviews }) {
         <div className="slider__control">
           <p className="slider__pagination" id="people"></p>
           <div className="slider__button-container">
-            <button className="slider__button slider__button-prev-people button" />
-            <button className="slider__button slider__button-next-people button" />
+            <button className="slider__button slider__button-prev-people button" type='button' name='prev' title='Предыдущий слайд'/>
+            <button className="slider__button slider__button-next-people button" type='button' name='next' title='Следующий слайд'/>
           </div>
         </div>
         <Swiper
