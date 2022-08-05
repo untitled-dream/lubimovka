@@ -20,11 +20,13 @@ function ImagePopup({ isOpen, photoIndex, onClose }) {
       shouldCloseOnEsc={true}
       style={{
         overlay: { 
+          display: 'flex',
+          alignItems: 'center',
           backgroundColor: 'rgba(0, 0, 0, 0.9', 
           zIndex: 2 },
         content: {
-          display: 'flex',
-          alignItems: 'center',
+          height: 'fit-content',
+          top: 'auto',
           background: 'none',
           border: 'none',
         },
@@ -45,7 +47,7 @@ function ImagePopup({ isOpen, photoIndex, onClose }) {
         rewind={true}
       >
         {photoGallery.map((item, i) => (
-          <SwiperSlide key={i} className='popup__image-container'>
+          <SwiperSlide key={i} className='popup__image-container' onClick={onClose}>
             {
               <img
                 className='popup__gallery-image'

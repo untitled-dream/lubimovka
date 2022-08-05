@@ -18,8 +18,10 @@ function Main() {
     setViewImagePopupOpen(true);
   }
 
-  function closeAllPopups() {
-    setViewImagePopupOpen(false);
+  function closeGalleryPopup(evt) {
+    if (!evt.target.classList.contains('popup__gallery-image')) {
+      setViewImagePopupOpen(false);
+    }
   }
 
   return (
@@ -33,7 +35,7 @@ function Main() {
         <ImagePopup
           isOpen={isViewImagePopupOpen}
           photoIndex={selectedPhotoIndex}
-          onClose={closeAllPopups}
+          onClose={closeGalleryPopup}
         />
       </PlayContext.Provider>
     </main>
