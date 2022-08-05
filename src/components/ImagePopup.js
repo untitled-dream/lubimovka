@@ -2,7 +2,7 @@ import { useContext } from 'react';
 
 import { PlayContext } from '../context/PlayContext';
 
-import { Navigation } from 'swiper';
+import { Navigation, Keyboard } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/navigation';
@@ -31,11 +31,15 @@ function ImagePopup({ isOpen, photoIndex, onClose }) {
       }}
     >
       <Swiper
-        modules={[Navigation]}
+        modules={[Navigation, Keyboard]}
         initialSlide={photoIndex}
         navigation={{
           prevEl: '.slider__button-prev',
           nextEl: '.slider__button-next',
+        }}
+        keyboard={{
+          enabled: true,
+          onlyInViewport: false,
         }}
         grabCursor={true}
         rewind={true}
