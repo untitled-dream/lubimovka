@@ -1,4 +1,4 @@
-import { useContext } from 'react';
+import { useContext, useEffect } from 'react';
 
 import { PlayContext } from '../context/PlayContext';
 
@@ -11,6 +11,14 @@ import ReactModal from 'react-modal';
 
 function ImagePopup({ isOpen, photoIndex, onClose }) {
   const { id, photoGallery } = useContext(PlayContext);
+  
+  useEffect(() => {
+    if (isOpen) document.body.style.overflow = 'hidden';
+    else document.body.removeAttribute('style');
+    return () => {
+      document.body.removeAttribute('style');
+    };
+  }, [isOpen]);
 
   return (
     <ReactModal
@@ -18,6 +26,7 @@ function ImagePopup({ isOpen, photoIndex, onClose }) {
       onRequestClose={onClose}
       shouldCloseOnOverlayClick={true}
       shouldCloseOnEsc={true}
+      preventScroll={true}
       style={{
         overlay: { 
           display: 'flex',
