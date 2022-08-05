@@ -3,6 +3,7 @@
   padding: 45px 0 65px;
   box-sizing: border-box;
   font-family: 'Neue Machina', Arial, Helvetica, sans-serif;
+  overflow: hidden;
 }
 
 @media (max-width: 720px) {
