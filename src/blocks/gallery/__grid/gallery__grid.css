@@ -1,12 +1,11 @@
 .gallery__grid {
   display: grid;
   grid-template-columns: repeat(4, auto);
-  gap: 1px;
+  gap: 2px;
 }
 
 @media screen and (max-width: 1230px) {
   .gallery__grid {
-    gap: 2px;
     grid-template-columns: repeat(2, auto);
   }
 }
