@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/lubimovka/static/css/main.4beab0e3.css",
-    "main.js": "/lubimovka/static/js/main.ab8452a7.js",
+    "main.css": "/lubimovka/static/css/main.3b77b077.css",
+    "main.js": "/lubimovka/static/js/main.5ee93d13.js",
     "static/media/partner-mosbrew.svg": "/lubimovka/static/media/partner-mosbrew.73e584d8161f97893913.svg",
     "static/media/s-uchilisha-photo-3.jpg": "/lubimovka/static/media/s-uchilisha-photo-3.cef1bc6eaf026ebbe6cd.jpg",
     "static/media/s-uchilisha-photo-7.jpg": "/lubimovka/static/media/s-uchilisha-photo-7.2a4c4c475b16d4db4941.jpg",
@@ -34,11 +34,11 @@
     "static/media/icon-burger-menu.svg": "/lubimovka/static/media/icon-burger-menu.0270e661a3e683f908f7.svg",
     "static/media/icon-close.svg": "/lubimovka/static/media/icon-close.3ccc432d8e2371ea640a.svg",
     "static/media/icon-plus.svg": "/lubimovka/static/media/icon-plus.6f0ef854b17e8c21f14a.svg",
-    "main.4beab0e3.css.map": "/lubimovka/static/css/main.4beab0e3.css.map",
-    "main.ab8452a7.js.map": "/lubimovka/static/js/main.ab8452a7.js.map"
+    "main.3b77b077.css.map": "/lubimovka/static/css/main.3b77b077.css.map",
+    "main.5ee93d13.js.map": "/lubimovka/static/js/main.5ee93d13.js.map"
   },
   "entrypoints": [
-    "static/css/main.4beab0e3.css",
-    "static/js/main.ab8452a7.js"
+    "static/css/main.3b77b077.css",
+    "static/js/main.5ee93d13.js"
   ]
 }
