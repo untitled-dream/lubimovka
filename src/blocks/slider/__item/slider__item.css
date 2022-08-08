@@ -2,3 +2,9 @@
   opacity: .4;
   pointer-events: none;
 }
+
+@media (max-width: 450px) {
+  .slider__item {
+    width: 100vw;
+  }
+}

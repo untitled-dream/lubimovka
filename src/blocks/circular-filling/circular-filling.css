@@ -8,7 +8,7 @@
   }
 }
 
-@keyframes circular-filling-backword {
+@keyframes circular-filling-backward {
   from {
     --angle: 100%;
   }

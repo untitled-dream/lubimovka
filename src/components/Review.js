@@ -37,11 +37,9 @@ function Review() {
         <div className='slider__item slider__item_active'>
           <article className='review review_size_small'>
             <p className='review__text'>{item.text}</p>
-            <p className='review__text' href={item.readMoreLink}>
-              {item.author}
-            </p>
+            <p className='review__text review__text_type_author'>{item.author}</p>
           </article>
-      </div>
+        </div>
       )}
     </SwiperSlide>
   );

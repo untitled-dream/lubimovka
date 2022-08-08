@@ -1,9 +1,0 @@
-.review__text_media {
-  margin-top: 47px;
-}
-
-@media (max-width: 735px) {
-  .review__text_media {
-    margin-top: 35px;
-  }
-}

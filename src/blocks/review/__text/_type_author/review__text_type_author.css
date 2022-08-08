@@ -1,0 +1,5 @@
+@media (max-width: 735px) {
+  .review__text_type_author {
+    overflow-y: hidden;
+  }
+}

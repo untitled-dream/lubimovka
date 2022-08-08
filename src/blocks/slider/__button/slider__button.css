@@ -1,11 +1,11 @@
 .slider__button {
-  background: conic-gradient(var(--content-color) var(--angle), rgba(255, 255, 255, 0) var(--angle));
+  background: conic-gradient(var(--content-color) var(--angle, 50%), rgba(255, 255, 255, 0) var(--angle, 50%));
   display: flex;
   justify-content: center;
   height: 50px;
   width: 50px;
   position: relative;
-  animation: .35s circular-filling-backword cubic-bezier(0.25, 1, 0.5, 1) backwards;
+  animation: .35s circular-filling-backward cubic-bezier(0.25, 1, 0.5, 1) backwards;
   transition: background-color .35s;
 }
 

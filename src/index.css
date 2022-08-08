@@ -49,7 +49,8 @@
 @import url(./blocks/review/__link-block/review__link-block.css);
 @import url(./blocks/review/__media-logo/review__media-logo.css);
 @import url(./blocks/review/__text/review__text.css);
-@import url(./blocks/review/__text/_media/review__text_media.css);
+@import url(./blocks/review/__text/_type_media/review__text_type_media.css);
+@import url(./blocks/review/__text/_type_author/review__text_type_author.css);
 
 @import url(./blocks/slider/slider.css);
 @import url(./blocks/slider/_media/slider_media.css);
