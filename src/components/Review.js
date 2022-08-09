@@ -18,7 +18,7 @@ function Review() {
               src={require(`../images/plays/${id}/reviews/${item.logo}`)}
               alt={item.title}
             />
-            <p className='review__text review__text_media'>{item.text}</p>
+            <p className='review__text review__text_type_media'>{item.text}</p>
             <a
               href={item.readMoreLink}
               className='review__link-block link link_type_filling'
