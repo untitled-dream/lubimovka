@@ -18,3 +18,9 @@
 .popup__slider-button:last-child {
   right: 30px;
 }
+
+@media screen and (max-width: 720px) {
+  .popup__slider-button {
+    top: 95%;
+  }
+}

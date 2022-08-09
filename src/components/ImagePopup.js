@@ -31,13 +31,14 @@ function ImagePopup({ isOpen, photoIndex, onClose }) {
         overlay: { 
           display: 'flex',
           alignItems: 'center',
-          backgroundColor: 'rgba(0, 0, 0, 0.9', 
+          backgroundColor: 'rgba(0, 0, 0, 0.9)', 
           zIndex: 2 },
         content: {
           height: 'fit-content',
           top: 'auto',
           background: 'none',
           border: 'none',
+          position: 'unset'
         },
       }}
     >
