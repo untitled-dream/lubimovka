@@ -11,16 +11,16 @@
 }
 
 .popup__slider-button:not(:last-child) {
-  left: 30px;
+  left: 16px;
   transform: translateY(-50%) scale(-1);
 }
 
 .popup__slider-button:last-child {
-  right: 30px;
+  right: 16px;
 }
 
 @media screen and (max-width: 720px) {
   .popup__slider-button {
-    top: 95%;
+    top: calc(100% - 40px)
   }
 }
