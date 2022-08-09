@@ -1,5 +1,6 @@
 import { useContext, useEffect } from 'react';
 
+import ControlButton from './ControlButton';
 import { PlayContext } from '../context/PlayContext';
 
 import { Navigation, Keyboard } from 'swiper';
@@ -68,23 +69,21 @@ function ImagePopup({ isOpen, photoIndex, onClose }) {
           </SwiperSlide>
         ))}
       </Swiper>
-      <button
-        className='popup__button-close button'
+      <ControlButton
+        classList={'button popup__button-close'}
         onClick={onClose}
-        type='button'
-        title='Закрыть окно'
+        name={'close'}
+        title={'Закрыть окно'}
       />
-      <button
-        className='popup__slider-button slider__button-prev button'
-        type='button'
-        name='prev'
-        title='Предыдущая фотография'
+      <ControlButton
+        classList={'button popup__slider-button slider__button-prev'}
+        name={'prev'}
+        title={'Предыдущая фотография'}
       />
-      <button
-        className='popup__slider-button slider__button-next button'
-        type='button'
-        name='next'
-        title='Следующая фотография'
+      <ControlButton
+        classList={'button popup__slider-button slider__button-next'}
+        name={'next'}
+        title={'Следующая фотография'}
       />
     </ReactModal>
   );

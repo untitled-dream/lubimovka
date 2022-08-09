@@ -10,7 +10,7 @@ function SocialShare() {
   return (
     <section className="share">
       <picture>
-        <source srcset={require(`../images/plays/${id}/${description.image.banner.small}`)} media="(max-width: 720px)" />
+        <source srcSet={require(`../images/plays/${id}/${description.image.banner.small}`)} media="(max-width: 720px)" />
         <img className='share__banner' src={require(`../images/plays/${id}/${description.image.banner.main}`)} alt='Пьеса С_училища. Баннер' />
       </picture>
       <div className="share__wrapper">

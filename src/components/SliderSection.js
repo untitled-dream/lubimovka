@@ -1,5 +1,7 @@
 import React from 'react';
 
+import ControlButton from './ControlButton';
+
 import { Navigation, Pagination } from 'swiper';
 import { Swiper } from 'swiper/react';
 import 'swiper/css';
@@ -15,8 +17,14 @@ function MediaReview({ reviews, modifier, title, swiperClass, slidesPerView, sli
           <div className='slider__control'>
             <p className={`slider__pagination ${'slider__pagination_' + modifier}`} id={modifier}></p>
             <div className='slider__button-container'>
-              <button className={`slider__button ${'slider__button-prev-' + modifier} button`} />
-              <button className={`slider__button ${'slider__button-next-' + modifier} button`} />
+              <ControlButton
+                classList={`button slider__button ${'slider__button-prev-' + modifier}`}
+                title={'Предыдущая рецензия'}
+              />
+              <ControlButton
+                classList={`button slider__button ${'slider__button-next-' + modifier}`}
+                title={'Следующая рецензия'}
+              />
             </div>
           </div>
         </div>
