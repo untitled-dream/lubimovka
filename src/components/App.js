@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import { isMobile } from "react-device-detect";
 
 import useWindowDimensions from '../hooks/useWindowDimensions';
 
@@ -14,7 +15,7 @@ function App() {
 
   const [isMenuState, setMenuState] = useState(false);
   const [onMenuShow, setMenuShow] = useState(false)
-  
+
   useEffect(() => {
     if (width > 1357) {
       setMenuShow(false);
@@ -30,7 +31,7 @@ function App() {
 
   return (
     <>
-      <Header currentWindowWidth={width}/>
+      <Header currentWindowWidth={width} />
       <Menu
         isMenuState={isMenuState}
         onShow={onMenuShow}
@@ -39,7 +40,10 @@ function App() {
       />
       <Main />
       <Footer />
-      {/* <Scrolling/> */}
+
+      {
+        !isMobile && <Scrolling />
+      }
     </>
   );
 }
