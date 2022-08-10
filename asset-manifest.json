@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/lubimovka/static/css/main.ab533603.css",
-    "main.js": "/lubimovka/static/js/main.5d48979f.js",
+    "main.js": "/lubimovka/static/js/main.d7503278.js",
     "static/media/s-uchilisha-photo-1.jpg": "/lubimovka/static/media/s-uchilisha-photo-1.5141ccb213c1a08f896f.jpg",
     "static/media/s-uchilisha-photo-3.jpg": "/lubimovka/static/media/s-uchilisha-photo-3.5d511302e2358cfaa413.jpg",
     "static/media/s-uchilisha-photo-7.jpg": "/lubimovka/static/media/s-uchilisha-photo-7.681108088dba4a1d6d4c.jpg",
@@ -36,10 +36,10 @@
     "static/media/icon-plus.svg": "/lubimovka/static/media/icon-plus.f9a30bd6150bc2f07128.svg",
     "static/media/icon-play.svg": "/lubimovka/static/media/icon-play.b18d67804aba8092494e.svg",
     "main.ab533603.css.map": "/lubimovka/static/css/main.ab533603.css.map",
-    "main.5d48979f.js.map": "/lubimovka/static/js/main.5d48979f.js.map"
+    "main.d7503278.js.map": "/lubimovka/static/js/main.d7503278.js.map"
   },
   "entrypoints": [
     "static/css/main.ab533603.css",
-    "static/js/main.5d48979f.js"
+    "static/js/main.d7503278.js"
   ]
 }
