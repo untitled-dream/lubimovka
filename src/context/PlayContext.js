@@ -4,8 +4,8 @@ export const playInfo = {
   's-uchilisha': {
     id: 's-uchilisha',
     description: {
-      name: 'С_училища',
-      shortDescription:
+      title: 'С_училища',
+      summary:
         'Пьеса о демоническом обаянии студентки ПТУ и ее роковой роли в жизни преподавателя философии.',
       annotation:
         'Семён Серзин сделал читку этой пьесы в рамках основной программы Любимовки-2017, Варочный Цех предоставил грант на постановку, а Московский драматический театр имени А.С. Пушкина принял спектакль в репертуар.',
@@ -56,7 +56,7 @@ export const playInfo = {
       ticketLink: '#',
       playTextLink: '#',
       readingLink: 'https://www.youtube.com/watch?v=qUkeNlgz36Y',
-      videoLink: 'https://www.youtube.com/embed/_GvtV2bfc7Q?autoplay=1',
+      videoLink: 'https://www.youtube.com/embed/_GvtV2bfc7Q',
     },
     reviews: {
       media: [

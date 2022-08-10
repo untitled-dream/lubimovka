@@ -1,14 +1,14 @@
 import React from 'react';
 
-const ProjectHeading = React.memo(({ playInfo, ticketLink }) => {
+const ProjectHeading = React.memo(({ title, summary, eventDate, ticketLink }) => {
   return (
     <div className='project-heading'>
-      <h1 className='project-heading__title'>{playInfo.name}</h1>
-      <p className='project-heading__subtitle'>{playInfo.shortDescription}</p>
+      <h1 className='project-heading__title'>{title}</h1>
+      <p className='project-heading__subtitle'>{summary}</p>
       {
-        playInfo.eventDate.date &&
+        eventDate.date &&
         <div className='tickets'>
-          <p className='tickets__date'>{playInfo.eventDate.date + ' ' + playInfo.eventDate.time}</p>
+          <p className='tickets__date'>{eventDate.date + ' ' + eventDate.time}</p>
           <a href={ticketLink} className='tickets__link link link_type_filling'>Билеты</a>
         </div>
       }

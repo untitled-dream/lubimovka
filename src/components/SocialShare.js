@@ -4,14 +4,22 @@ import { PlayContext } from '../context/PlayContext';
 
 function SocialShare() {
 
-  const { id, description } = React.useContext(PlayContext);
-  const location = window.location.href
+  const { 
+    id,
+    description: {
+      image: {
+        banner
+      }
+    }
+  } = React.useContext(PlayContext);
+
+  const location = window.location.href;
 
   return (
     <section className="share">
       <picture>
-        <source srcSet={require(`../images/plays/${id}/${description.image.banner.small}`)} media="(max-width: 720px)" />
-        <img className='share__banner' src={require(`../images/plays/${id}/${description.image.banner.main}`)} alt='Пьеса С_училища. Баннер' />
+        <source srcSet={require(`../images/plays/${id}/${banner.small}`)} media="(max-width: 720px)" />
+        <img className='share__banner' src={require(`../images/plays/${id}/${banner.main}`)} alt='Пьеса С_училища. Баннер' />
       </picture>
       <div className="share__wrapper">
         <h2 className="share__heading">

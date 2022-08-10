@@ -4,7 +4,6 @@ import useWindowDimensions from '../hooks/useWindowDimensions';
 
 import Header from "./Header";
 import Menu from "./Menu";
-
 import Main from "./Main";
 import Footer from "./Footer";
 
@@ -32,7 +31,6 @@ function App() {
   return (
     <>
       <Header currentWindowWidth={width}/>
-
       <Menu
         isMenuState={isMenuState}
         onShow={onMenuShow}

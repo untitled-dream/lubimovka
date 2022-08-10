@@ -1,38 +1,44 @@
 import React, { useState } from 'react';
 import Video from './Video';
 
-const ProjectArticle = React.memo(({ id, name, paragraphs, authorInfo, links }) => {
+const ProjectArticle = React.memo(({ title, paragraphs, authorInfo, links: { videoLink, readingLink } }) => {
 
   const [isPlay, setPlay] = useState(false)
+  const [autoPlayLink, setAutoPlayLink] = useState(videoLink)
 
-  const handleVideoPlay = () => {
-    setPlay(true);
+  const handlePlayVideo = () => {
+    setPlay(true)
+    setAutoPlayLink(videoLink + '?autoplay=1')
   }
 
   return (
     <div className='project-article'>
-      <div className='project-article__video-container'>
-        {
-          !isPlay &&
-          <>
-            <img className='project-article__video-cover' src={require(`../images/plays/${id}/video-preview.png`)} alt='Видео' />
-            <button className='project-article__video-button' onClick={handleVideoPlay} type='button' name='play-video'></button>
-          </>
-        }
-        <Video url={links.videoLink} isPlay={isPlay} />
-      </div>
+      {
+        videoLink &&
+        <div className='project-article__video-container'>
+          <Video
+            isPlay={isPlay}
+            url={autoPlayLink}
+            onClick={handlePlayVideo}
+            imgClass={'project-article__video-cover'}
+            btnClass={'project-article__video-button'}
+          />
+        </div>
+      }
       <div className='project-article__text-block'>
         {
-          paragraphs.map((paragraph, ind) => <p key={ind} className='project-article__text'>{paragraph}</p>)
+          paragraphs.map((paragraph, i) =>
+            <p key={i} className='project-article__text'>{paragraph}</p>
+          )
         }
       </div>
       <div className='project-card'>
         <div className='project-card__content'>
-          <p className='project-card__name'>{name}</p>
+          <p className='project-card__name'>{title}</p>
           <div className='project-card__container'>
             <a
               className='project-card__watch link link_type_filling'
-              href={links.readingLink}
+              href={readingLink}
               target='_blank'
               rel='noreferrer'
             >
