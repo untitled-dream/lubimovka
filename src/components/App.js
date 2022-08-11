@@ -1,5 +1,4 @@
 import { useEffect, useState } from "react";
-import { isMobile } from "react-device-detect";
 
 import useWindowDimensions from '../hooks/useWindowDimensions';
 
@@ -7,8 +6,6 @@ import Header from "./Header";
 import Menu from "./Menu";
 import Main from "./Main";
 import Footer from "./Footer";
-
-import Scrolling from "./Scrolling";
 
 function App() {
   const { width } = useWindowDimensions();
@@ -40,10 +37,6 @@ function App() {
       />
       <Main />
       <Footer />
-
-      {
-        !isMobile && <Scrolling />
-      }
     </>
   );
 }
