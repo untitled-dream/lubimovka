@@ -1,4 +1,4 @@
-<a style="float: right" href='https://github.com/untitled-dream/lubimovka/blob/react/README.en.md'><img src='https://img.shields.io/badge/Read this on English-blue'/></a>
+<div dir='rtl'><a style="float: right" href='https://github.com/untitled-dream/lubimovka/blob/react/README.en.md'><img src='https://img.shields.io/badge/Read this on English-blue'/></a></div>
 
 ## __Любимовка__
 
