@@ -1,8 +1,10 @@
-## Любимовка
+<a style="float: right" href='https://github.com/untitled-dream/template-project/blob/main/README.en.md'><img src='https://img.shields.io/badge/Read this on English-blue'/></a>
+
+## __Любимовка__
 
 ### Команда
-- [Павлов Алесь](https://github.com/pavlovales/)
-- [Смирнов Андрей](https://github.com/untitled-dream/)
+- [Алесь Павлов](https://github.com/pavlovales/)
+- [Андрей Смирнов](https://github.com/untitled-dream/)
 
 <!--
   - [Серебрякова Соня](https://github.com/noi5enu1sanc3/)
@@ -15,10 +17,10 @@
 [Макет Figma](https://www.figma.com/file/8RmFow9sgbN1Z1A2GTUY96/Lubimovka?node-id=0%3A337)
 
 ### Технологии
-- Flexbox / Grid Layout
-- Адаптивная верстка
-- БЭМ Nested
+- Методология БЭМ Nested
+- React 18.2.0
 - Webpack
+- Swiper 8.3.1
 
 ### Установка
 
