@@ -1,6 +1,7 @@
 <div dir='rtl'><a href='https://github.com/untitled-dream/lubimovka/blob/react/README.en.md'><img src='https://img.shields.io/badge/Read this on English-blue'/></a></div>
 
-## Любимовка - независимый некоммерческий коллективный проект российских драматургов
+## Любимовка
+### Независимый некоммерческий коллективный проект российских драматургов
 
 ### Команда
 - [Алесь Павлов](https://github.com/pavlovales/)
